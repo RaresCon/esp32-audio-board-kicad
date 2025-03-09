@@ -1436,175 +1436,6 @@
 				)
 			)
 		)
-		(symbol "Device:LED"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R_US"
 			(pin_numbers hide)
 			(pin_names
@@ -1836,7 +1667,7 @@
 				)
 			)
 			(symbol "ES8388_1_1"
-				(pin power_in line
+				(pin input line
 					(at 0 -22.86 0)
 					(length 2.54)
 					(name "MCLK"
@@ -2160,7 +1991,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at 0 -19.05 0)
 					(length 2.54)
 					(name "CE"
@@ -2178,7 +2009,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 0 -16.51 0)
 					(length 2.54)
 					(name "CDATA"
@@ -2196,7 +2027,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at 0 -13.97 0)
 					(length 2.54)
 					(name "CCLK"
@@ -2268,7 +2099,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at 0 -25.4 0)
 					(length 2.54)
 					(name "SCLK"
@@ -2286,7 +2117,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at 0 -30.48 0)
 					(length 2.54)
 					(name "DSDIN"
@@ -2304,7 +2135,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at 0 -27.94 0)
 					(length 2.54)
 					(name "LRCK"
@@ -2322,7 +2153,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin output line
 					(at 0 -33.02 0)
 					(length 2.54)
 					(name "ASDOUT"
@@ -4560,6 +4391,12 @@
 		(uuid "3f7a2c42-6b26-4d63-91ab-bfa6ac4d9447")
 	)
 	(junction
+		(at 80.01 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4216d8c8-6a03-460d-a66d-e8e2644ddda5")
+	)
+	(junction
 		(at 118.11 228.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4588,12 +4425,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c7b8ad4-bb2a-4461-ab1f-f3d7bbb816d4")
-	)
-	(junction
-		(at 78.74 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "609df069-8d1b-462d-a634-822361dcdbb9")
 	)
 	(junction
 		(at 100.33 114.3)
@@ -4704,6 +4535,12 @@
 		(uuid "91b7fae7-0cdc-42ea-91b6-ad7837160557")
 	)
 	(junction
+		(at 113.03 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92a283bd-d0a0-4642-8e3b-74e74ddfab15")
+	)
+	(junction
 		(at 255.27 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4738,6 +4575,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae030f50-64a2-4d5b-82b5-4b2f8d2602f5")
+	)
+	(junction
+		(at 113.03 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae410399-415f-47d3-97f9-87a040f789f2")
 	)
 	(junction
 		(at 128.27 114.3)
@@ -4944,16 +4787,40 @@
 		(uuid "1ab513bf-7e79-402a-93d4-2635e910e6c6")
 	)
 	(no_connect
+		(at 370.84 104.14)
+		(uuid "31f23180-c7dd-4fdf-af58-f88ebf8c2a7b")
+	)
+	(no_connect
 		(at 45.72 64.77)
 		(uuid "40da7536-c979-431a-b2dc-1a26d4ea216e")
+	)
+	(no_connect
+		(at 370.84 106.68)
+		(uuid "4650ed1d-03ca-4cbe-b261-ab4f9d9b1274")
+	)
+	(no_connect
+		(at 370.84 60.96)
+		(uuid "4670fc75-4135-4a44-ba59-18161eafc922")
+	)
+	(no_connect
+		(at 370.84 96.52)
+		(uuid "4e229c5b-fca9-4d4a-807b-09ad4c3166df")
 	)
 	(no_connect
 		(at 90.17 54.61)
 		(uuid "82a45b37-dc12-4ee1-9e8b-b8ecb0985352")
 	)
 	(no_connect
+		(at 370.84 93.98)
+		(uuid "8350f5bc-13e4-49d1-ba2c-c42209d120e0")
+	)
+	(no_connect
 		(at 90.17 52.07)
 		(uuid "8812417d-f215-4aec-9061-7237ab4a1952")
+	)
+	(no_connect
+		(at 370.84 78.74)
+		(uuid "992408db-2a54-4c07-b533-c22ea972f032")
 	)
 	(no_connect
 		(at 90.17 57.15)
@@ -4964,18 +4831,36 @@
 		(uuid "a79038aa-dd94-4ead-b896-8e950e34b32c")
 	)
 	(no_connect
+		(at 370.84 109.22)
+		(uuid "ab763af8-f163-447d-b0e7-b6b97498ee4a")
+	)
+	(no_connect
+		(at 370.84 99.06)
+		(uuid "b22df118-f95b-4405-baea-e4694280b9f1")
+	)
+	(no_connect
+		(at 370.84 66.04)
+		(uuid "bc34a0ab-e913-43db-8e6c-d0146dd977a2")
+	)
+	(no_connect
+		(at 370.84 73.66)
+		(uuid "cd752058-a7b2-472a-996c-b0d97f705ec4")
+	)
+	(no_connect
 		(at 45.72 67.31)
 		(uuid "dbeb7975-5d9d-41a0-9c3f-a358cad4b4ca")
 	)
-	(wire
-		(pts
-			(xy 68.58 123.19) (xy 68.58 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0046815e-5a1f-4fa1-8a4b-e2161458c90d")
+	(no_connect
+		(at 370.84 55.88)
+		(uuid "e02ac161-d480-4c06-ac86-acfe150774d9")
+	)
+	(no_connect
+		(at 370.84 101.6)
+		(uuid "e97be285-57d5-4a17-8503-addb4367eb5f")
+	)
+	(no_connect
+		(at 370.84 68.58)
+		(uuid "efb337d1-da1b-4d65-a505-6efc808c4d41")
 	)
 	(wire
 		(pts
@@ -4989,7 +4874,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 39.37) (xy 80.01 38.1)
+			(xy 80.01 39.37) (xy 80.01 36.83)
 		)
 		(stroke
 			(width 0)
@@ -5106,6 +4991,16 @@
 			(type default)
 		)
 		(uuid "072e1df7-494b-401b-8357-ae257e0815b9")
+	)
+	(wire
+		(pts
+			(xy 275.59 35.56) (xy 280.67 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0790ea60-76ae-4361-84d0-e515b233f9d3")
 	)
 	(wire
 		(pts
@@ -5259,6 +5154,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 49.53) (xy 113.03 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1025859b-8e72-4a15-94e9-7865730f4311")
+	)
+	(wire
+		(pts
 			(xy 121.92 120.65) (xy 128.27 120.65)
 		)
 		(stroke
@@ -5370,16 +5275,6 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 35.56) (xy 280.67 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15d358d5-6466-47be-9451-ea94b7521ff7")
-	)
-	(wire
-		(pts
 			(xy 90.17 62.23) (xy 92.71 62.23)
 		)
 		(stroke
@@ -5487,16 +5382,6 @@
 			(type default)
 		)
 		(uuid "1edcd2e2-12eb-4e8d-a5bd-ba6ecc6b62e5")
-	)
-	(wire
-		(pts
-			(xy 78.74 38.1) (xy 80.01 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fe49daf-0574-42e8-8862-8964066e0f1e")
 	)
 	(wire
 		(pts
@@ -5720,6 +5605,26 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 59.69) (xy 113.03 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "323b0171-50a0-4546-ba85-8e717f41881b")
+	)
+	(wire
+		(pts
+			(xy 275.59 33.02) (xy 275.59 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "325d60e5-2046-41b0-b28c-96321befe62f")
+	)
+	(wire
+		(pts
 			(xy 360.68 153.67) (xy 360.68 157.48)
 		)
 		(stroke
@@ -5811,6 +5716,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 49.53) (xy 119.38 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "371aaf93-f19a-4f33-bb6f-1ca3cd1a53f9")
+	)
+	(wire
+		(pts
 			(xy 105.41 229.87) (xy 113.03 229.87)
 		)
 		(stroke
@@ -5818,6 +5733,16 @@
 			(type default)
 		)
 		(uuid "37de5766-16ec-43bc-8f22-0c8ef05f5887")
+	)
+	(wire
+		(pts
+			(xy 113.03 59.69) (xy 113.03 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3aab2a1f-1601-4b91-a9a0-313da96f0480")
 	)
 	(wire
 		(pts
@@ -5848,6 +5773,16 @@
 			(type default)
 		)
 		(uuid "3c267617-bc38-49c3-a84f-b59b1eb5596f")
+	)
+	(wire
+		(pts
+			(xy 106.68 58.42) (xy 106.68 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c61683b-f62a-48e2-8645-4f78630b4b59")
 	)
 	(wire
 		(pts
@@ -6462,16 +6397,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 59.69) (xy 114.3 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5faeca08-a35c-4049-be85-5cbd4ef29243")
-	)
-	(wire
-		(pts
 			(xy 339.09 153.67) (xy 340.36 153.67)
 		)
 		(stroke
@@ -6509,6 +6434,16 @@
 			(type default)
 		)
 		(uuid "60eec6b6-bc53-43d9-b050-9076fb2ece1c")
+	)
+	(wire
+		(pts
+			(xy 80.01 34.29) (xy 80.01 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6135073f-0671-4997-96aa-051d641a65cc")
 	)
 	(wire
 		(pts
@@ -6679,6 +6614,16 @@
 			(type default)
 		)
 		(uuid "6ee1c66e-4cbd-482f-af81-5026fd743137")
+	)
+	(wire
+		(pts
+			(xy 68.58 127) (xy 69.85 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eec723c-9952-4971-845e-1c0e699ad34e")
 	)
 	(wire
 		(pts
@@ -6923,6 +6868,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 129.54) (xy 69.85 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c2e4942-9532-4188-b32c-479a9f5cfa05")
+	)
+	(wire
+		(pts
 			(xy 172.72 72.39) (xy 180.34 72.39)
 		)
 		(stroke
@@ -6994,7 +6949,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 39.37) (xy 77.47 38.1)
+			(xy 77.47 39.37) (xy 77.47 36.83)
 		)
 		(stroke
 			(width 0)
@@ -7142,6 +7097,16 @@
 		)
 		(uuid "8519dc7f-1c2f-430c-9c59-316a926afa15")
 	)
+	(wire
+		(pts
+			(xy 113.03 49.53) (xy 119.38 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "851ddf48-bbbf-4b64-a270-826d075e3f2c")
+	)
 	(polyline
 		(pts
 			(xy 152.4 133.35) (xy 290.83 134.62)
@@ -7213,6 +7178,16 @@
 			(type default)
 		)
 		(uuid "8ec02d29-b581-4231-9858-5a4c55622443")
+	)
+	(wire
+		(pts
+			(xy 273.05 33.02) (xy 273.05 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f40b30c-8576-4c20-b902-ccdef9c555be")
 	)
 	(wire
 		(pts
@@ -7536,16 +7511,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 36.83) (xy 78.74 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a565cd9b-47e6-45cb-b404-9e3ae2f8719f")
-	)
-	(wire
-		(pts
 			(xy 45.72 36.83) (xy 46.99 36.83)
 		)
 		(stroke
@@ -7626,6 +7591,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 36.83) (xy 113.03 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac344797-eb69-4380-901c-6792faf7f630")
+	)
+	(wire
+		(pts
 			(xy 373.38 81.28) (xy 370.84 81.28)
 		)
 		(stroke
@@ -7696,16 +7671,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 49.53) (xy 114.3 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b12f832a-bd81-427c-a342-a0bce51045be")
-	)
-	(wire
-		(pts
 			(xy 370.84 50.8) (xy 373.38 50.8)
 		)
 		(stroke
@@ -7726,7 +7691,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 38.1) (xy 78.74 38.1)
+			(xy 77.47 36.83) (xy 80.01 36.83)
 		)
 		(stroke
 			(width 0)
@@ -7763,6 +7728,16 @@
 			(type default)
 		)
 		(uuid "b5f1e8fc-f5d2-4497-aa29-caef6a518c0e")
+	)
+	(wire
+		(pts
+			(xy 106.68 50.8) (xy 106.68 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b734f19f-e291-41ca-bc3a-43006aeb8144")
 	)
 	(wire
 		(pts
@@ -7907,6 +7882,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 123.19) (xy 68.58 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c23d8e03-a1d0-45e4-9e37-949e0252bfbf")
+	)
+	(wire
+		(pts
 			(xy 46.99 33.02) (xy 46.99 36.83)
 		)
 		(stroke
@@ -8005,6 +7990,16 @@
 			(type default)
 		)
 		(uuid "cae370f9-d10c-4cfb-bdfb-3646efc3b142")
+	)
+	(wire
+		(pts
+			(xy 106.68 59.69) (xy 113.03 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc0866ab-c3b3-4a5c-a280-f7aaa4d94d11")
 	)
 	(wire
 		(pts
@@ -8229,7 +8224,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 35.56) (xy 270.51 35.56)
+			(xy 264.16 35.56) (xy 273.05 35.56)
 		)
 		(stroke
 			(width 0)
@@ -8428,6 +8423,26 @@
 		)
 		(uuid "e3a2d669-6276-4ddf-ab66-4f16618081aa")
 	)
+	(wire
+		(pts
+			(xy 68.58 129.54) (xy 68.58 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3ca1ade-380a-4ec7-bd70-1025c601fda7")
+	)
+	(wire
+		(pts
+			(xy 113.03 36.83) (xy 113.03 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3d87235-4312-4b62-ad06-015077791f67")
+	)
 	(polyline
 		(pts
 			(xy 82.55 143.51) (xy 152.4 143.51)
@@ -8478,6 +8493,16 @@
 			(type default)
 		)
 		(uuid "e73ad549-99c1-4ada-91ee-49bd0e38bb69")
+	)
+	(wire
+		(pts
+			(xy 119.38 58.42) (xy 119.38 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e77f6cc9-d8c2-4d62-af84-cd5ac76c86d1")
 	)
 	(wire
 		(pts
@@ -8829,16 +8854,6 @@
 			(type default)
 		)
 		(uuid "feac5793-3624-4dad-9e33-ff37675acb3a")
-	)
-	(wire
-		(pts
-			(xy 68.58 134.62) (xy 68.58 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff742cf7-8469-42f7-945b-5e2c2727ffc2")
 	)
 	(wire
 		(pts
@@ -10541,71 +10556,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 314.96 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "01d17ab9-2054-4d27-aeca-04d43d16ac5c")
-		(property "Reference" "J4"
-			(at 315.595 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "EN_PAD1"
-			(at 315.595 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 314.96 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 314.96 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 314.96 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c62db2fa-3466-410b-8696-e679334dc370")
-		)
-		(instances
-			(project "esp32-audio-board"
-				(path "/eec632f9-36b4-4131-ab98-6e329881d10f"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 128.27 107.95 0)
 		(unit 1)
@@ -11019,72 +10969,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 114.3 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "08ca6ecc-ac87-446d-8f36-3038ca730c08")
-		(property "Reference" "#PWR8"
-			(at 114.3 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 114.3 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 114.3 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e711624f-d4d0-4396-bd47-86f1424eb56a")
-		)
-		(instances
-			(project "esp32-audio-board"
-				(path "/eec632f9-36b4-4131-ab98-6e329881d10f"
-					(reference "#PWR8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 261.62 184.15 90)
 		(unit 1)
@@ -11214,70 +11098,6 @@
 			(project "esp32-audio-board"
 				(path "/eec632f9-36b4-4131-ab98-6e329881d10f"
 					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 354.33 227.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0c9ecabb-8ea2-4ecf-b713-e789531d9de7")
-		(property "Reference" "J10"
-			(at 354.965 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IO13_PAD1"
-			(at 355.6 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 354.33 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 354.33 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 354.33 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "74dd5477-885a-4912-9316-38b8bfb87f9c")
-		)
-		(instances
-			(project "esp32-audio-board"
-				(path "/eec632f9-36b4-4131-ab98-6e329881d10f"
-					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -11544,6 +11364,75 @@
 			(project "esp32-audio-board"
 				(path "/eec632f9-36b4-4131-ab98-6e329881d10f"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 106.68 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0feecb0a-d395-4034-8527-9ad7ae3aa782")
+		(property "Reference" "C1"
+			(at 110.49 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 110.49 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+			(at 107.6452 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 106.68 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc98946b-6801-420a-bc91-40cdee5a7bdd")
+		)
+		(pin "2"
+			(uuid "87cafc3f-0ea0-42e9-9d42-7efec3770e47")
+		)
+		(instances
+			(project "esp32-audio-board"
+				(path "/eec632f9-36b4-4131-ab98-6e329881d10f"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -12708,6 +12597,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 314.96 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1d812d82-2b3a-46e0-8a42-3cb750cd6058")
+		(property "Reference" "J4"
+			(at 316.23 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EN_PAD1"
+			(at 316.484 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm"
+			(at 314.96 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 314.96 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 314.96 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "403203db-28f5-4297-91cc-5973fe5e7535")
+		)
+		(instances
+			(project "esp32-audio-board"
+				(path "/eec632f9-36b4-4131-ab98-6e329881d10f"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 121.92 125.73 0)
 		(unit 1)
@@ -13579,71 +13532,6 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 345.44 190.5 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2fc75499-b89a-4531-b3b9-3b9e7fafea02")
-		(property "Reference" "J7"
-			(at 344.805 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VN_PAD0"
-			(at 344.805 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 345.44 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 345.44 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 345.44 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6c66fe15-bc9a-4595-b995-8787e47a9b29")
-		)
-		(instances
-			(project "esp32-audio-board"
-				(path "/eec632f9-36b4-4131-ab98-6e329881d10f"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
 		(at 170.18 182.88 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14251,6 +14139,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 275.59 27.94 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3bf77957-35d0-42a1-99b0-d7705db1d7e6")
+		(property "Reference" "J24"
+			(at 275.336 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CHG_LED-"
+			(at 277.368 27.178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm"
+			(at 275.59 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 275.59 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 275.59 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89451a64-48b1-446b-9631-fc455f634121")
+		)
+		(instances
+			(project "esp32-audio-board"
+				(path "/eec632f9-36b4-4131-ab98-6e329881d10f"
+					(reference "J24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 106.68 125.73 0)
 		(unit 1)
@@ -14524,6 +14476,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 345.44 153.67 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a5bc008-6843-4fd4-8624-66b5a81a85bb")
+		(property "Reference" "J21"
+			(at 344.805 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VP_PAD0"
+			(at 344.805 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm"
+			(at 345.44 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 345.44 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 345.44 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1431e458-5262-4b34-807b-ce1761de5e7b")
+		)
+		(instances
+			(project "esp32-audio-board"
+				(path "/eec632f9-36b4-4131-ab98-6e329881d10f"
+					(reference "J21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 260.35 35.56 90)
 		(unit 1)
@@ -14658,6 +14675,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 354.33 227.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4cef862d-568b-4e71-b448-c9ed8fc99599")
+		(property "Reference" "J9"
+			(at 354.965 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IO14_PAD1"
+			(at 355.854 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm"
+			(at 354.33 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 354.33 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 354.33 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf3cef82-125c-44ed-9217-1ec862304d34")
+		)
+		(instances
+			(project "esp32-audio-board"
+				(path "/eec632f9-36b4-4131-ab98-6e329881d10f"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 264.16 59.69 0)
 		(unit 1)
@@ -14721,6 +14802,137 @@
 			(project "esp32-audio-board"
 				(path "/eec632f9-36b4-4131-ab98-6e329881d10f"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 113.03 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "500465bf-bd73-4611-be99-1105e242e625")
+		(property "Reference" "#PWR7"
+			(at 113.03 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 113.03 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 113.03 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "856c0a26-a43a-4783-a59a-f0dbbe6f9856")
+		)
+		(instances
+			(project "esp32-audio-board"
+				(path "/eec632f9-36b4-4131-ab98-6e329881d10f"
+					(reference "#PWR7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 345.44 190.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "518b3353-4fea-4efd-9f25-730674d92a26")
+		(property "Reference" "J6"
+			(at 344.805 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VN_PAD0"
+			(at 344.805 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm"
+			(at 345.44 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 345.44 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 345.44 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1556ee3d-76ed-49e0-9453-dc6e10fced5b")
+		)
+		(instances
+			(project "esp32-audio-board"
+				(path "/eec632f9-36b4-4131-ab98-6e329881d10f"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -14861,32 +15073,31 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 354.33 153.67 0)
+		(at 74.93 129.54 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "536ee640-a7c3-4c85-8508-458761ade99f")
-		(property "Reference" "J6"
-			(at 354.965 148.59 0)
+		(uuid "53e01e05-dd3a-43b9-a108-ff969a103723")
+		(property "Reference" "J22"
+			(at 77.47 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "VP_PAD1"
-			(at 354.965 151.13 0)
+		(property "Value" "PWR_LED-"
+			(at 75.692 131.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 354.33 153.67 0)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm"
+			(at 74.93 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14895,7 +15106,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 354.33 153.67 0)
+			(at 74.93 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14904,7 +15115,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 354.33 153.67 0)
+			(at 74.93 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14913,12 +15124,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "88a37d99-730a-473c-9cbd-3d114576c172")
+			(uuid "a99e9976-6006-4d1a-b0ec-27b1cf0bbb97")
 		)
 		(instances
 			(project "esp32-audio-board"
 				(path "/eec632f9-36b4-4131-ab98-6e329881d10f"
-					(reference "J6")
+					(reference "J22")
 					(unit 1)
 				)
 			)
@@ -14988,6 +15199,70 @@
 			(project "esp32-audio-board"
 				(path "/eec632f9-36b4-4131-ab98-6e329881d10f"
 					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 345.44 227.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55ba954b-a491-4c01-8853-18ec47130004")
+		(property "Reference" "J8"
+			(at 344.805 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IO14_PAD0"
+			(at 343.916 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm"
+			(at 345.44 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 345.44 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 345.44 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "460da248-d789-4905-9036-496b7793f90a")
+		)
+		(instances
+			(project "esp32-audio-board"
+				(path "/eec632f9-36b4-4131-ab98-6e329881d10f"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -15196,6 +15471,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 354.33 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5bcfdd13-b1f6-4161-8e23-5699d1f5149a")
+		(property "Reference" "J7"
+			(at 354.965 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VN_PAD1"
+			(at 354.965 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm"
+			(at 354.33 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 354.33 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 354.33 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2fd5d03d-6679-44e5-b89e-f026ad0ac1b0")
+		)
+		(instances
+			(project "esp32-audio-board"
+				(path "/eec632f9-36b4-4131-ab98-6e329881d10f"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 105.41 234.95 0)
 		(unit 1)
@@ -15255,136 +15595,6 @@
 			(project "esp32-audio-board"
 				(path "/eec632f9-36b4-4131-ab98-6e329881d10f"
 					(reference "#PWR49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 306.07 100.33 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5fc8032d-ba4f-44f1-8c05-7b1b5777e88e")
-		(property "Reference" "J1"
-			(at 305.435 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "EN_PAD0"
-			(at 305.435 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 306.07 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 306.07 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 306.07 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c2126683-faaa-433e-9f9e-f97cf20b1b16")
-		)
-		(instances
-			(project "esp32-audio-board"
-				(path "/eec632f9-36b4-4131-ab98-6e329881d10f"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 354.33 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "61b442ec-171b-431b-a6a6-e3f30ad57a35")
-		(property "Reference" "J8"
-			(at 354.965 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VN_PAD1"
-			(at 354.965 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 354.33 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 354.33 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 354.33 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f86acd5b-be39-4f56-b841-6fa54e8679ab")
-		)
-		(instances
-			(project "esp32-audio-board"
-				(path "/eec632f9-36b4-4131-ab98-6e329881d10f"
-					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -15454,6 +15664,71 @@
 			(project "esp32-audio-board"
 				(path "/eec632f9-36b4-4131-ab98-6e329881d10f"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 354.33 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6425f74f-688d-4748-9681-0c08496239ff")
+		(property "Reference" "J5"
+			(at 354.965 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VP_PAD1"
+			(at 354.965 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm"
+			(at 354.33 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 354.33 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 354.33 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ee697cf-c023-4fab-9de6-c5dac837f40d")
+		)
+		(instances
+			(project "esp32-audio-board"
+				(path "/eec632f9-36b4-4131-ab98-6e329881d10f"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -16133,6 +16408,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 119.38 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7615f6fe-e999-4f98-935a-d679c657f42b")
+		(property "Reference" "C45"
+			(at 123.19 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 123.19 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+			(at 120.3452 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 119.38 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a0bd5cd-42ef-4b01-bd81-bd55074ebe30")
+		)
+		(pin "2"
+			(uuid "57c4cc2e-c1bf-4a44-add8-839d9a402bf7")
+		)
+		(instances
+			(project "esp32-audio-board"
+				(path "/eec632f9-36b4-4131-ab98-6e329881d10f"
+					(reference "C45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 68.58 134.62 0)
 		(unit 1)
@@ -16395,6 +16739,70 @@
 			(project "esp32-audio-board"
 				(path "/eec632f9-36b4-4131-ab98-6e329881d10f"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 273.05 27.94 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b0ba6d8-7b52-4f8d-809c-5411b9f342d5")
+		(property "Reference" "J23"
+			(at 272.542 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CHG_LED+"
+			(at 270.002 27.178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm"
+			(at 273.05 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 273.05 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 273.05 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55a3329b-425c-45b7-8c8a-0f8d83913ac5")
+		)
+		(instances
+			(project "esp32-audio-board"
+				(path "/eec632f9-36b4-4131-ab98-6e329881d10f"
+					(reference "J23")
 					(unit 1)
 				)
 			)
@@ -17417,10 +17825,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9421c386-be55-4bcc-a22b-6dd44bf8fcd2")
 		(property "Reference" "R9"
-			(at 71.12 118.1099 0)
+			(at 64.262 118.364 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17429,7 +17836,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 71.12 120.6499 0)
+			(at 64.262 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18328,6 +18735,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 74.93 127 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8fb0859-0724-4211-980b-65fc419265d6")
+		(property "Reference" "J10"
+			(at 77.47 126.492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_LED+"
+			(at 75.692 123.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm"
+			(at 74.93 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 74.93 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2881b38-12d3-4a3d-aedf-438cf5752573")
+		)
+		(instances
+			(project "esp32-audio-board"
+				(path "/eec632f9-36b4-4131-ab98-6e329881d10f"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Linear:LD1117S33TR_SOT223")
 		(at 35.56 114.3 0)
 		(unit 1)
@@ -18951,76 +19422,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 114.3 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b8bc44b4-4f63-4838-96a1-a7d701227374")
-		(property "Reference" "C1"
-			(at 118.11 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 118.11 55.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
-			(at 115.2652 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 114.3 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1f8d8ee9-5466-4e20-807e-722626cd96b2")
-		)
-		(pin "2"
-			(uuid "29d009e0-d8fa-418b-b5da-e979bb1709a1")
-		)
-		(instances
-			(project ""
-				(path "/eec632f9-36b4-4131-ab98-6e329881d10f"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 278.13 212.09 0)
 		(unit 1)
@@ -19622,70 +20023,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 345.44 227.33 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c5f58289-8cca-49b8-aefc-fa82c53aa19d")
-		(property "Reference" "J9"
-			(at 344.805 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IO13_PAD0"
-			(at 344.17 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 345.44 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 345.44 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 345.44 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d7cf4d91-a1a7-40e0-ae52-aa4537feb13f")
-		)
-		(instances
-			(project "esp32-audio-board"
-				(path "/eec632f9-36b4-4131-ab98-6e329881d10f"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 93.98 125.73 0)
 		(unit 1)
@@ -20272,6 +20609,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 306.07 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7077412-dbdd-48c2-a17f-6db657379a44")
+		(property "Reference" "J1"
+			(at 305.435 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EN_PAD0"
+			(at 304.546 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm"
+			(at 306.07 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 306.07 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 306.07 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "883dc75b-8c17-410a-bd02-9b2e0165a84e")
+		)
+		(instances
+			(project "esp32-audio-board"
+				(path "/eec632f9-36b4-4131-ab98-6e329881d10f"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 57.15 125.73 0)
 		(unit 1)
@@ -20674,73 +21075,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 68.58 128.27 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "df709123-4ae9-440c-9f0f-d3d40ca9de94")
-		(property "Reference" "D3"
-			(at 67.31 124.968 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BLUE LED"
-			(at 72.136 127.762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 68.58 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 68.58 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "75dcc50f-9469-4d9d-802e-b10f76630ad3")
-		)
-		(pin "2"
-			(uuid "419260f6-e1e3-4bc9-9ab5-422660363ed8")
-		)
-		(instances
-			(project "esp32-audio-board"
-				(path "/eec632f9-36b4-4131-ab98-6e329881d10f"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 251.46 215.9 0)
 		(unit 1)
@@ -20808,7 +21142,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 78.74 36.83 0)
+		(at 80.01 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20817,7 +21151,7 @@
 		(fields_autoplaced yes)
 		(uuid "e0f0d65a-9d24-4059-9112-6726630aa056")
 		(property "Reference" "#PWR4"
-			(at 78.74 40.64 0)
+			(at 80.01 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20826,7 +21160,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 78.74 31.75 0)
+			(at 80.01 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20834,7 +21168,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 36.83 0)
+			(at 80.01 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20843,7 +21177,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 36.83 0)
+			(at 80.01 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20852,7 +21186,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 78.74 36.83 0)
+			(at 80.01 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20867,71 +21201,6 @@
 			(project ""
 				(path "/eec632f9-36b4-4131-ab98-6e329881d10f"
 					(reference "#PWR4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 345.44 153.67 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e1c78030-c79a-41b3-886f-873e6ab7ea54")
-		(property "Reference" "J5"
-			(at 344.805 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VP_PAD0"
-			(at 344.805 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 345.44 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 345.44 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 345.44 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f445a4a2-a65e-45fa-9815-4cf1fc24ba93")
-		)
-		(instances
-			(project "esp32-audio-board"
-				(path "/eec632f9-36b4-4131-ab98-6e329881d10f"
-					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -21205,73 +21474,6 @@
 			(project "esp32-audio-board"
 				(path "/eec632f9-36b4-4131-ab98-6e329881d10f"
 					(reference "C33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 274.32 35.56 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e6fad707-da43-4642-8eb2-f9524063ef6e")
-		(property "Reference" "D4"
-			(at 271.018 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RED LED"
-			(at 268.478 34.036 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 274.32 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 274.32 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 274.32 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5be79e25-dd33-4db2-9be0-5c906ee4af5e")
-		)
-		(pin "2"
-			(uuid "e72bbbe9-3c9e-4d25-8ffc-82f139b72925")
-		)
-		(instances
-			(project "esp32-audio-board"
-				(path "/eec632f9-36b4-4131-ab98-6e329881d10f"
-					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -22215,72 +22417,6 @@
 			(project "esp32-audio-board"
 				(path "/eec632f9-36b4-4131-ab98-6e329881d10f"
 					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 114.3 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f9238369-4c2f-4383-b9ee-6851e729a35a")
-		(property "Reference" "#PWR7"
-			(at 114.3 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 114.3 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "273f7589-1a0a-4d01-96fe-27cd4d714ea3")
-		)
-		(instances
-			(project ""
-				(path "/eec632f9-36b4-4131-ab98-6e329881d10f"
-					(reference "#PWR7")
 					(unit 1)
 				)
 			)
