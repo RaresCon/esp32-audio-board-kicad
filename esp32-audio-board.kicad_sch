@@ -10555,7 +10555,7 @@
 		)
 		(uuid "835521cd-d8fa-47ea-9c1e-c31ab4b19d97")
 	)
-	(text "Play/Pause"
+	(text "Play/Pause/Deepsleep"
 		(exclude_from_sim no)
 		(at 351.028 218.44 0)
 		(effects
@@ -11578,28 +11578,6 @@
 			)
 		)
 	)
-	(global_label "BAT_LVL"
-		(shape input)
-		(at 269.24 110.49 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "71225572-feab-4ffa-8270-86cb69400583")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 269.24 100.0662 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ESP-IO0"
 		(shape input)
 		(at 373.38 50.8 0)
@@ -11732,7 +11710,7 @@
 			)
 		)
 	)
-	(global_label "BAT_LVL"
+	(global_label "ESP_IO35"
 		(shape input)
 		(at 373.38 109.22 0)
 		(fields_autoplaced yes)
@@ -11744,7 +11722,7 @@
 		)
 		(uuid "8f6ee7f3-d120-4538-b455-9be0fd16703e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 383.8038 109.22 0)
+			(at 385.3156 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11855,6 +11833,28 @@
 		(uuid "b2da4b77-4926-43df-a952-7cd9801e1ccd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 117.9504 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ESP_IO35"
+		(shape input)
+		(at 269.24 110.49 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d490c08a-dfca-4e71-a680-e06a98aa1871")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.24 98.5544 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12575,7 +12575,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0835c516-fc6f-442c-9f55-87ee80b067a6")
 		(property "Reference" "D2"
 			(at 212.4075 119.38 0)
@@ -12585,15 +12584,15 @@
 				)
 			)
 		)
-		(property "Value" "D_Schottky"
-			(at 212.4075 121.92 0)
+		(property "Value" "3A/20V/390mV - SBR3U20SA-13"
+			(at 214.376 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_3220_8050Metric_Pad2.65x5.15mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 212.09 125.73 0)
 			(effects
 				(font
