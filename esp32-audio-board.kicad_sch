@@ -5846,6 +5846,12 @@
 		(uuid "edac6029-2b2f-4e1b-88b6-6da6d69fefa3")
 	)
 	(junction
+		(at 265.43 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eeaeb9a0-76ff-4df1-a0ad-e344bb829907")
+	)
+	(junction
 		(at 73.66 241.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5887,12 +5893,6 @@
 		(color 0 0 0 0)
 		(uuid "fd4ac105-2c7b-4bc9-aa82-1695aa3d0620")
 	)
-	(junction
-		(at 264.16 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fde0be32-b036-45fc-beab-714e623f79b8")
-	)
 	(no_connect
 		(at 76.2 43.18)
 		(uuid "03926f5b-100c-43e7-895e-7e0dffda4b66")
@@ -5906,12 +5906,12 @@
 		(uuid "09d0ed80-98b6-4542-b54d-23d12adf91cf")
 	)
 	(no_connect
-		(at 104.14 38.1)
-		(uuid "30d964a6-786c-4a1a-bfdd-533323293df3")
+		(at 370.84 106.68)
+		(uuid "0dc2681d-8953-438d-81c1-5737c7685aa1")
 	)
 	(no_connect
-		(at 370.84 104.14)
-		(uuid "31f23180-c7dd-4fdf-af58-f88ebf8c2a7b")
+		(at 104.14 38.1)
+		(uuid "30d964a6-786c-4a1a-bfdd-533323293df3")
 	)
 	(no_connect
 		(at 104.14 63.5)
@@ -5924,6 +5924,10 @@
 	(no_connect
 		(at 370.84 60.96)
 		(uuid "4670fc75-4135-4a44-ba59-18161eafc922")
+	)
+	(no_connect
+		(at 340.36 58.42)
+		(uuid "55686697-c3c4-4471-8940-89c14f4339eb")
 	)
 	(no_connect
 		(at 370.84 63.5)
@@ -5940,10 +5944,6 @@
 	(no_connect
 		(at 48.26 63.5)
 		(uuid "7f587d59-a45c-445a-b563-a2cf2a122ece")
-	)
-	(no_connect
-		(at 370.84 93.98)
-		(uuid "8350f5bc-13e4-49d1-ba2c-c42209d120e0")
 	)
 	(no_connect
 		(at 370.84 91.44)
@@ -5982,12 +5982,12 @@
 		(uuid "e02ac161-d480-4c06-ac86-acfe150774d9")
 	)
 	(no_connect
-		(at 104.14 40.64)
-		(uuid "e535a624-2201-4cdf-a988-8357ac9cabb9")
+		(at 340.36 55.88)
+		(uuid "e02f7ca6-07a7-49cf-8097-9b7bcbb9aff7")
 	)
 	(no_connect
-		(at 370.84 101.6)
-		(uuid "e97be285-57d5-4a17-8503-addb4367eb5f")
+		(at 104.14 40.64)
+		(uuid "e535a624-2201-4cdf-a988-8357ac9cabb9")
 	)
 	(no_connect
 		(at 370.84 88.9)
@@ -6005,7 +6005,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 68.58) (xy 264.16 63.5)
+			(xy 265.43 68.58) (xy 265.43 63.5)
 		)
 		(stroke
 			(width 0)
@@ -6326,6 +6326,16 @@
 	)
 	(wire
 		(pts
+			(xy 373.38 93.98) (xy 370.84 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dbbb479-43f0-479b-972e-8677130c77d6")
+	)
+	(wire
+		(pts
 			(xy 252.73 255.27) (xy 251.46 255.27)
 		)
 		(stroke
@@ -6605,16 +6615,6 @@
 			(type default)
 		)
 		(uuid "1c88b23c-2f65-49a9-9717-e07bc2f86bbc")
-	)
-	(wire
-		(pts
-			(xy 370.84 109.22) (xy 373.38 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1dda7bb2-c754-4872-a0a8-18c9ceb33915")
 	)
 	(wire
 		(pts
@@ -6959,6 +6959,16 @@
 	)
 	(wire
 		(pts
+			(xy 370.84 109.22) (xy 373.38 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36236e39-9385-4185-badd-50623cb4baed")
+	)
+	(wire
+		(pts
 			(xy 48.26 228.6) (xy 44.45 228.6)
 		)
 		(stroke
@@ -7119,7 +7129,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 50.8) (xy 264.16 50.8)
+			(xy 245.11 50.8) (xy 265.43 50.8)
 		)
 		(stroke
 			(width 0)
@@ -7136,6 +7146,16 @@
 			(type default)
 		)
 		(uuid "4128d36f-620d-404f-9c39-76c5fa0ef522")
+	)
+	(wire
+		(pts
+			(xy 370.84 104.14) (xy 373.38 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41291e9c-bc99-4e8b-8f74-653894cb47cb")
 	)
 	(wire
 		(pts
@@ -7480,7 +7500,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 46.99) (xy 264.16 50.8)
+			(xy 265.43 46.99) (xy 265.43 50.8)
 		)
 		(stroke
 			(width 0)
@@ -7497,16 +7517,6 @@
 			(type default)
 		)
 		(uuid "4f7f112a-5db1-43be-97b5-8a0c2b9beec2")
-	)
-	(wire
-		(pts
-			(xy 264.16 50.8) (xy 274.32 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ff79eb1-b3b2-4908-8e13-cc3777bd57ed")
 	)
 	(wire
 		(pts
@@ -7717,6 +7727,26 @@
 			(type default)
 		)
 		(uuid "5b9f4459-047f-455e-895c-6c2ad59bdd91")
+	)
+	(wire
+		(pts
+			(xy 265.43 50.8) (xy 274.32 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c73d540-c62c-4b17-bdf5-41fbe1a07849")
+	)
+	(wire
+		(pts
+			(xy 370.84 101.6) (xy 373.38 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d89bc6a-ffdb-4ef1-aa82-27fb18751301")
 	)
 	(wire
 		(pts
@@ -8333,16 +8363,6 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 58.42) (xy 340.36 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d8bb5ba-c29d-4ef2-8fd7-c27639caf996")
-	)
-	(wire
-		(pts
 			(xy 370.84 157.48) (xy 374.65 157.48)
 		)
 		(stroke
@@ -8513,7 +8533,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 50.8) (xy 264.16 55.88)
+			(xy 265.43 50.8) (xy 265.43 55.88)
 		)
 		(stroke
 			(width 0)
@@ -9607,16 +9627,6 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 55.88) (xy 340.36 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0e49bc5-ee10-4198-86be-d641487cd025")
-	)
-	(wire
-		(pts
 			(xy 278.13 212.09) (xy 278.13 214.63)
 		)
 		(stroke
@@ -10057,16 +10067,6 @@
 			(type default)
 		)
 		(uuid "e8d34581-4465-4cd1-8291-54218061a671")
-	)
-	(wire
-		(pts
-			(xy 370.84 106.68) (xy 373.38 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eac440b6-ad56-48d5-886f-2553e750de7b")
 	)
 	(wire
 		(pts
@@ -10671,7 +10671,7 @@
 	)
 	(text "Espressif's suggestion for IO16\nin case of PSRAM"
 		(exclude_from_sim no)
-		(at 398.272 80.772 0)
+		(at 399.034 80.772 0)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -10940,24 +10940,24 @@
 			)
 		)
 	)
-	(global_label "ESP_SENSOR_VP"
+	(global_label "ESP_IO32"
 		(shape input)
-		(at 337.82 55.88 180)
+		(at 373.38 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "119cc556-5048-4fb6-997c-5bcd58890f3e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 319.4135 55.88 0)
+			(at 385.3156 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -11138,24 +11138,24 @@
 			)
 		)
 	)
-	(global_label "ESP_SENSOR_VN"
+	(global_label "ESP_IO33"
 		(shape input)
-		(at 337.82 58.42 180)
+		(at 373.38 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "310748af-cea6-428f-b0d0-5d1b21d9fb98")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 319.353 58.42 0)
+			(at 385.3156 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -11248,7 +11248,7 @@
 			)
 		)
 	)
-	(global_label "ESP_SENSOR_VP"
+	(global_label "ESP_IO32"
 		(shape input)
 		(at 378.46 157.48 0)
 		(fields_autoplaced yes)
@@ -11260,7 +11260,7 @@
 		)
 		(uuid "4d0e4d8e-169c-4834-9d8a-576dbf77b384")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 396.8665 157.48 0)
+			(at 390.3956 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11336,7 +11336,7 @@
 			)
 		)
 	)
-	(global_label "ESP_IO34"
+	(global_label "ESP_IO25"
 		(shape input)
 		(at 378.46 231.14 0)
 		(fields_autoplaced yes)
@@ -11402,9 +11402,9 @@
 			)
 		)
 	)
-	(global_label "ESP_IO34"
+	(global_label "ESP_IO25"
 		(shape input)
-		(at 373.38 106.68 0)
+		(at 373.38 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11414,7 +11414,7 @@
 		)
 		(uuid "64e2c0f6-bff0-427a-ad56-47b9267c7517")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 385.3156 106.68 0)
+			(at 385.3156 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12018,7 +12018,7 @@
 			)
 		)
 	)
-	(global_label "ESP_SENSOR_VN"
+	(global_label "ESP_IO33"
 		(shape input)
 		(at 378.46 194.31 0)
 		(fields_autoplaced yes)
@@ -12030,7 +12030,7 @@
 		)
 		(uuid "f7653cc4-fa6a-440b-8702-cb45b7894120")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 396.927 194.31 0)
+			(at 390.3956 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12092,7 +12092,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0049d41d-64ee-42b3-8d5d-b785a91b7fe1")
 		(property "Reference" "C5"
 			(at 213.36 57.1499 0)
@@ -12103,8 +12102,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
-			(at 213.36 59.6899 0)
+		(property "Value" "4.7uF/1%"
+			(at 211.074 61.468 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12172,7 +12171,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10K/1%"
 			(at 394.97 72.39 90)
 			(effects
 				(font
@@ -12298,7 +12297,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "037157ce-ba9e-47c9-a6a0-dba01641a993")
-		(property "Reference" "C4"
+		(property "Reference" "C_EN1"
 			(at 303.53 54.6099 0)
 			(effects
 				(font
@@ -12307,7 +12306,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1uF/1%"
 			(at 303.53 57.1499 0)
 			(effects
 				(font
@@ -12352,7 +12351,7 @@
 		(instances
 			(project "esp32-audio-board"
 				(path "/eec632f9-36b4-4131-ab98-6e329881d10f"
-					(reference "C4")
+					(reference "C_EN1")
 					(unit 1)
 				)
 			)
@@ -12435,7 +12434,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "06fcb78d-7467-4e8f-a1b1-8b93ee5d549f")
 		(property "Reference" "C2"
 			(at 336.55 34.2899 0)
@@ -12446,8 +12444,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
-			(at 336.55 36.8299 0)
+		(property "Value" "22uF/1%"
+			(at 322.834 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12505,7 +12503,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "082c25d0-ba4e-455d-9be7-4bcef0ba3ce9")
 		(property "Reference" "R7"
 			(at 257.81 39.3699 0)
@@ -12516,8 +12513,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1K"
-			(at 257.81 41.9099 0)
+		(property "Value" "1K/%1"
+			(at 256.032 43.942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12584,7 +12581,7 @@
 				)
 			)
 		)
-		(property "Value" "3A/20V/390mV - SBR3U20SA-13"
+		(property "Value" "3A/20V Schottky Rectifier - MBRA320"
 			(at 214.376 129.286 0)
 			(effects
 				(font
@@ -12718,7 +12715,7 @@
 				)
 			)
 		)
-		(property "Value" "33R"
+		(property "Value" "33R/1%"
 			(at 261.62 180.34 90)
 			(effects
 				(font
@@ -12785,7 +12782,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "100R/1%"
 			(at 56.134 242.824 90)
 			(effects
 				(font
@@ -13119,8 +13116,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 61.722 73.66 0)
+		(property "Value" "0.1uF/1%"
+			(at 57.658 73.406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13319,8 +13316,8 @@
 				)
 			)
 		)
-		(property "Value" "2K"
-			(at 267.462 220.98 0)
+		(property "Value" "2K/1%"
+			(at 268.986 221.742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13387,8 +13384,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
-			(at 162.56 232.4099 0)
+		(property "Value" "10uF/1%"
+			(at 160.782 233.426 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13455,7 +13452,7 @@
 				)
 			)
 		)
-		(property "Value" "33R"
+		(property "Value" "33R/1%"
 			(at 160.274 181.356 90)
 			(effects
 				(font
@@ -13523,7 +13520,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1uF/1%"
 			(at 200.66 232.4099 0)
 			(effects
 				(font
@@ -13864,15 +13861,15 @@
 		(dnp no)
 		(uuid "182f7946-6b78-47bc-90c3-6f7e12772f8a")
 		(property "Reference" "R33"
-			(at 260.604 261.62 0)
+			(at 258.572 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "2K"
-			(at 267.462 261.62 0)
+		(property "Value" "2K/1%"
+			(at 269.24 261.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14008,8 +14005,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
-			(at 263.144 226.822 90)
+		(property "Value" "1uF/1%"
+			(at 260.096 232.918 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14142,7 +14139,7 @@
 				)
 			)
 		)
-		(property "Value" "33R"
+		(property "Value" "33R/1%"
 			(at 160.274 169.926 90)
 			(effects
 				(font
@@ -14278,7 +14275,7 @@
 				)
 			)
 		)
-		(property "Value" "33R"
+		(property "Value" "33R/1%"
 			(at 261.62 160.02 90)
 			(effects
 				(font
@@ -14410,8 +14407,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 165.1 125.7299 0)
+		(property "Value" "0.1uF/1%"
+			(at 161.798 127.254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14543,7 +14540,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1K/1%"
 			(at 271.78 258.572 90)
 			(effects
 				(font
@@ -14743,7 +14740,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20pF"
+		(property "Value" "20pF/1%"
 			(at 270.256 170.434 0)
 			(effects
 				(font
@@ -15091,7 +15088,7 @@
 				)
 			)
 		)
-		(property "Value" "33R"
+		(property "Value" "33R/1%"
 			(at 81.534 181.356 90)
 			(effects
 				(font
@@ -15290,8 +15287,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 175.26 232.4099 0)
+		(property "Value" "0.1uF/1%"
+			(at 172.72 233.426 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15415,7 +15412,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2debf3f2-2d44-440b-b815-dca5d27448f1")
 		(property "Reference" "R1"
 			(at 55.88 36.8299 0)
@@ -15426,11 +15422,11 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.1K"
-			(at 55.88 39.3699 0)
+		(property "Value" "5.1K/1%"
+			(at 54.61 40.132 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(justify left)
 			)
@@ -15679,8 +15675,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
-			(at 89.408 227.33 0)
+		(property "Value" "10uF/1%"
+			(at 88.138 229.108 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16014,7 +16010,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "100R/1%"
 			(at 367.03 153.67 90)
 			(effects
 				(font
@@ -16082,7 +16078,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7R"
+		(property "Value" "4.7R/1%"
 			(at 177.8 220.98 90)
 			(effects
 				(font
@@ -16149,7 +16145,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1K/1%"
 			(at 271.78 217.932 90)
 			(effects
 				(font
@@ -16351,7 +16347,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF/1%"
 			(at 118.872 131.572 0)
 			(effects
 				(font
@@ -16412,7 +16408,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4324b55c-b18f-446a-952b-f7393ae1b744")
-		(property "Reference" "R6"
+		(property "Reference" "R_EN1"
 			(at 302.26 44.4499 0)
 			(effects
 				(font
@@ -16421,7 +16417,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10K/1%"
 			(at 302.26 46.9899 0)
 			(effects
 				(font
@@ -16466,7 +16462,7 @@
 		(instances
 			(project "esp32-audio-board"
 				(path "/eec632f9-36b4-4131-ab98-6e329881d10f"
-					(reference "R6")
+					(reference "R_EN1")
 					(unit 1)
 				)
 			)
@@ -16825,7 +16821,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20pF"
+		(property "Value" "20pF/1%"
 			(at 270.256 190.754 0)
 			(effects
 				(font
@@ -16959,7 +16955,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1K/1%"
 			(at 260.35 31.75 90)
 			(effects
 				(font
@@ -17141,7 +17137,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 264.16 59.69 0)
+		(at 265.43 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17149,7 +17145,7 @@
 		(dnp no)
 		(uuid "4d4f30fa-d5ed-475c-a26f-8164c720de05")
 		(property "Reference" "C6"
-			(at 256.032 58.42 0)
+			(at 257.302 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17157,8 +17153,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
-			(at 256.032 60.96 0)
+		(property "Value" "4.7uF/1%"
+			(at 255.27 63.246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17167,7 +17163,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 265.1252 63.5 0)
+			(at 266.3952 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17176,7 +17172,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 264.16 59.69 0)
+			(at 265.43 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17185,7 +17181,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 264.16 59.69 0)
+			(at 265.43 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17421,8 +17417,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20pF"
-			(at 59.182 247.396 0)
+		(property "Value" "20pF/1%"
+			(at 57.658 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17874,7 +17870,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "59fc9ea4-27b3-454e-a215-e29b8d290649")
 		(property "Reference" "R2"
 			(at 64.77 36.8299 0)
@@ -17885,11 +17880,11 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.1K"
-			(at 64.77 39.3699 0)
+		(property "Value" "5.1K/%1"
+			(at 64.008 40.132 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(justify left)
 			)
@@ -18084,7 +18079,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1uF/1%"
 			(at 349.2501 201.93 0)
 			(effects
 				(font
@@ -18218,8 +18213,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 58.166 126.492 0)
+		(property "Value" "0.1uF/1%"
+			(at 55.88 128.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18271,7 +18266,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 264.16 68.58 0)
+		(at 265.43 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18280,7 +18275,7 @@
 		(fields_autoplaced yes)
 		(uuid "6b2f6bbe-01d2-41e2-af96-f2068b895d50")
 		(property "Reference" "#PWR17"
-			(at 264.16 74.93 0)
+			(at 265.43 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18289,7 +18284,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 264.16 73.66 0)
+			(at 265.43 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18297,7 +18292,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 264.16 68.58 0)
+			(at 265.43 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18306,7 +18301,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 68.58 0)
+			(at 265.43 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18315,7 +18310,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 264.16 68.58 0)
+			(at 265.43 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18543,7 +18538,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "703b52ef-abfa-4fa5-88c8-34f329babd59")
-		(property "Reference" "R5"
+		(property "Reference" "R_PROG1"
 			(at 224.79 57.1499 0)
 			(effects
 				(font
@@ -18552,7 +18547,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2K"
+		(property "Value" "2K/1%"
 			(at 224.79 59.6899 0)
 			(effects
 				(font
@@ -18597,7 +18592,7 @@
 		(instances
 			(project "esp32-audio-board"
 				(path "/eec632f9-36b4-4131-ab98-6e329881d10f"
-					(reference "R5")
+					(reference "R_PROG1")
 					(unit 1)
 				)
 			)
@@ -18886,7 +18881,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF/1%"
 			(at 77.724 73.406 0)
 			(effects
 				(font
@@ -19483,8 +19478,8 @@
 				)
 			)
 		)
-		(property "Value" "33R"
-			(at 99.822 259.334 90)
+		(property "Value" "33R/1%"
+			(at 101.346 259.334 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20118,7 +20113,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
+		(property "Value" "JST S2B"
 			(at 270.51 47.498 0)
 			(effects
 				(font
@@ -20451,8 +20446,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
-			(at 70.104 181.356 90)
+		(property "Value" "22uF/1%"
+			(at 68.326 187.452 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20520,8 +20515,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
-			(at 187.96 232.4099 0)
+		(property "Value" "10uF/1%"
+			(at 185.674 233.426 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20589,8 +20584,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1K"
-			(at 79.502 120.65 0)
+		(property "Value" "1K/1%"
+			(at 85.344 119.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20839,7 +20834,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1uF/1%"
 			(at 349.2501 238.76 0)
 			(effects
 				(font
@@ -20908,8 +20903,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
-			(at 263.144 253.492 90)
+		(property "Value" "10uF/1%"
+			(at 254.254 254 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20977,7 +20972,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "100R/1%"
 			(at 105.41 218.44 90)
 			(effects
 				(font
@@ -21457,8 +21452,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20pF"
-			(at 77.216 247.904 0)
+		(property "Value" "20pF/1%"
+			(at 74.676 249.428 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21672,8 +21667,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
-			(at 148.844 181.356 90)
+		(property "Value" "22uF/1%"
+			(at 146.812 186.944 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21741,7 +21736,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "100R/1%"
 			(at 367.03 190.5 90)
 			(effects
 				(font
@@ -21941,7 +21936,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "100R/1%"
 			(at 367.03 227.33 90)
 			(effects
 				(font
@@ -22338,7 +22333,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1uF/1%"
 			(at 124.968 36.83 90)
 			(effects
 				(font
@@ -22406,7 +22401,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "100R/1%"
 			(at 56.134 237.49 90)
 			(effects
 				(font
@@ -22473,7 +22468,7 @@
 				)
 			)
 		)
-		(property "Value" "33R"
+		(property "Value" "33R/1%"
 			(at 81.534 169.926 90)
 			(effects
 				(font
@@ -22541,8 +22536,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 104.902 227.076 0)
+		(property "Value" "0.1uF/1%"
+			(at 102.87 228.854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22610,8 +22605,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
-			(at 263.144 212.852 90)
+		(property "Value" "10uF/1%"
+			(at 254.254 212.852 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22679,8 +22674,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 109.22 126.9999 0)
+		(property "Value" "0.1uF/1%"
+			(at 106.172 128.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22738,7 +22733,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c6c2f5f8-cfac-4dfa-8d31-bafd683b7851")
 		(property "Reference" "C7"
 			(at 20.32 124.4599 0)
@@ -22749,8 +22743,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 20.32 126.9999 0)
+		(property "Value" "0.1uF/1%"
+			(at 17.526 129.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23131,7 +23125,7 @@
 				)
 			)
 		)
-		(property "Value" "33R"
+		(property "Value" "33R/1%"
 			(at 99.314 254 90)
 			(effects
 				(font
@@ -23395,8 +23389,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
-			(at 71.12 126.746 0)
+		(property "Value" "10uF/1%"
+			(at 69.342 128.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23530,8 +23524,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
-			(at 263.144 267.462 90)
+		(property "Value" "1uF/1%"
+			(at 260.096 273.304 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23914,7 +23908,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 264.16 46.99 0)
+		(at 265.43 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23923,7 +23917,7 @@
 		(fields_autoplaced yes)
 		(uuid "e2d7ec99-7e71-4196-8abe-f6f37069bb5b")
 		(property "Reference" "#PWR18"
-			(at 264.16 50.8 0)
+			(at 265.43 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23932,7 +23926,7 @@
 			)
 		)
 		(property "Value" "VBAT"
-			(at 264.16 41.91 0)
+			(at 265.43 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23940,7 +23934,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 264.16 46.99 0)
+			(at 265.43 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23949,7 +23943,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 46.99 0)
+			(at 265.43 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23958,7 +23952,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 264.16 46.99 0)
+			(at 265.43 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23996,7 +23990,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF/1%"
 			(at 29.972 131.572 0)
 			(effects
 				(font
@@ -24200,7 +24194,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20pF"
+		(property "Value" "20pF/1%"
 			(at 270.256 150.114 0)
 			(effects
 				(font
@@ -24469,7 +24463,7 @@
 				)
 			)
 		)
-		(property "Value" "33R"
+		(property "Value" "33R/1%"
 			(at 261.62 139.7 90)
 			(effects
 				(font
@@ -24537,8 +24531,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
-			(at 148.844 169.672 90)
+		(property "Value" "22uF/1%"
+			(at 146.812 175.514 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24868,7 +24862,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1uF/1%"
 			(at 349.2501 165.1 0)
 			(effects
 				(font
@@ -24927,7 +24921,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f2565fea-df0a-4ecc-9c90-f68b285d5725")
 		(property "Reference" "C3"
 			(at 349.25 34.2899 0)
@@ -24938,8 +24931,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 349.25 36.8299 0)
+		(property "Value" "0.1uF/1%"
+			(at 345.694 38.608 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25072,8 +25065,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
-			(at 70.104 169.672 90)
+		(property "Value" "22uF/1%"
+			(at 67.818 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25276,7 +25269,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1uF/1%"
 			(at 309.8801 111.76 0)
 			(effects
 				(font
@@ -25345,8 +25338,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
-			(at 177.8 125.7299 0)
+		(property "Value" "10uF/1%"
+			(at 175.514 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
