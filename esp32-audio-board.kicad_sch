@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "ESP32_Audio_Board")
-		(date "2025-03-05")
+		(date "2025-03-22")
 		(rev "RevA")
 		(comment 1 "Designed by: Rareș Constantin")
 	)
@@ -3040,6 +3040,209 @@
 				)
 			)
 		)
+		(symbol "LP2985A-33DBVR:LP2985A-33DBVR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC1"
+				(at 17.78 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LP2985A-33DBVR"
+				(at 17.78 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lp2985a-33dbvr:SOT95P280X145-5N"
+				(at 31.75 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/gpn/lp2985a"
+				(at 31.75 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "150-mA Low-noise Low-dropout Regulator With Shutdown"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.45"
+				(at 31.75 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-LP2985A-33DBVR"
+				(at 31.75 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LP2985A-33DBVR?qs=paYhMW8qfis6dkQ9X%2FZDvw%3D%3D"
+				(at 31.75 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 31.75 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "LP2985A-33DBVR"
+				(at 31.75 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "LP2985A-33DBVR_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 21.59 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "ON/~{OFF}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 -5.08 180)
+					(length 5.08)
+					(name "BYPASS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 -2.54 180)
+					(length 5.08)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers hide)
 			(pin_names
@@ -4318,6 +4521,211 @@
 				)
 			)
 		)
+		(symbol "TLV75733PDBVR:TLV75733PDBVR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "PS"
+				(at 21.59 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "TLV75733PDBVR"
+				(at 21.59 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOT95P280X145-5N"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/gpn/tlv757p"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "LDO Voltage Regulators 1A Low-IQ Small-Size Low-Dropout (LDO) Regulator 5-SOT-23 -40 to 125"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.45"
+				(at 21.59 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-TLV75733PDBVR"
+				(at 21.59 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV75733PDBVR?qs=y6ZabgHbY%252BwAAzSntTW34w%3D%3D"
+				(at 21.59 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 21.59 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "TLV75733PDBVR"
+				(at 21.59 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "TLV75733PDBVR_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 20.32 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 5.08)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 25.4 0 180)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Transistor_BJT:SS8050"
 			(pin_names
 				(offset 0) hide)
@@ -4794,231 +5202,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "XC6220A331MR-G:XC6220A331MR-G"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "IC"
-				(at 24.13 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "XC6220A331MR-G"
-				(at 24.13 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "SOT95P280X120-5N"
-				(at 24.13 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.torexsemi.com/file/xc6220/XC6220.pdf"
-				(at 24.13 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "LDO Voltage Regulators"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.2"
-				(at 24.13 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Torex"
-				(at 24.13 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "XC6220A331MR-G"
-				(at 24.13 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "865-XC6220A331MR-G"
-				(at 24.13 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Torex-Semiconductor/XC6220A331MR-G?qs=AsjdqWjXhJ8ZSWznL1J0gg%3D%3D"
-				(at 24.13 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" ""
-				(at 24.13 -894.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" ""
-				(at 24.13 -994.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "XC6220A331MR-G_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 22.86 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "CE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 27.94 0 180)
-					(length 5.08)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 -2.54 180)
-					(length 5.08)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5546,7 +5729,7 @@
 		(uuid "68be7584-366e-4729-83c6-183deba6a9a5")
 	)
 	(junction
-		(at 167.64 129.54)
+		(at 170.18 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69b2c1ea-715a-446a-a613-ca1d3d0cf732")
@@ -5598,6 +5781,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c5fa8c9-e961-43ea-bceb-444ee1e6d5f0")
+	)
+	(junction
+		(at 170.18 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ca51bd6-55c4-412d-b87b-80bc2b961f01")
 	)
 	(junction
 		(at 48.26 238.76)
@@ -5684,12 +5873,6 @@
 		(uuid "b14b5ad8-a7ac-468d-8729-f0b91264cc67")
 	)
 	(junction
-		(at 167.64 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b2d6743f-5ebd-4219-8698-7dce5b6dd796")
-	)
-	(junction
 		(at 53.34 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5714,7 +5897,7 @@
 		(uuid "b6f1da65-2d89-4c0a-b929-9c29657ec753")
 	)
 	(junction
-		(at 167.64 119.38)
+		(at 170.18 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c589e817-c679-4463-8f04-1fcd29bb7d44")
@@ -6367,7 +6550,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 119.38) (xy 167.64 119.38)
+			(xy 163.83 119.38) (xy 170.18 119.38)
 		)
 		(stroke
 			(width 0)
@@ -6778,16 +6961,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 114.3) (xy 72.39 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cf5e00d-cfa8-452c-b5d0-4a084329f8ff")
-	)
-	(wire
-		(pts
 			(xy 190.5 224.79) (xy 205.74 224.79)
 		)
 		(stroke
@@ -6835,6 +7008,16 @@
 			(type default)
 		)
 		(uuid "30137aa7-309e-4907-bfe2-0bfb0f83db26")
+	)
+	(wire
+		(pts
+			(xy 170.18 114.3) (xy 170.18 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "302c59ab-3571-4f32-a38f-beba3c0020d4")
 	)
 	(wire
 		(pts
@@ -7029,7 +7212,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 129.54) (xy 167.64 133.35)
+			(xy 170.18 129.54) (xy 170.18 133.35)
 		)
 		(stroke
 			(width 0)
@@ -7329,7 +7512,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 120.65) (xy 161.29 119.38)
+			(xy 163.83 120.65) (xy 163.83 119.38)
 		)
 		(stroke
 			(width 0)
@@ -7480,7 +7663,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 129.54) (xy 167.64 129.54)
+			(xy 163.83 129.54) (xy 170.18 129.54)
 		)
 		(stroke
 			(width 0)
@@ -7520,6 +7703,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 116.84) (xy 157.48 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fb452e6-63ab-4150-bc61-c43e75a55c1a")
+	)
+	(wire
+		(pts
 			(xy 195.58 121.92) (xy 195.58 120.65)
 		)
 		(stroke
@@ -7540,7 +7733,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 114.3) (xy 129.54 133.35)
+			(xy 128.27 114.3) (xy 128.27 133.35)
 		)
 		(stroke
 			(width 0)
@@ -7570,7 +7763,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 116.84) (xy 134.62 116.84)
+			(xy 125.73 116.84) (xy 129.54 116.84)
 		)
 		(stroke
 			(width 0)
@@ -7630,7 +7823,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 119.38) (xy 173.99 120.65)
+			(xy 176.53 119.38) (xy 176.53 120.65)
 		)
 		(stroke
 			(width 0)
@@ -8000,16 +8193,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 102.87) (xy 167.64 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d048261-d9ee-481a-9dd7-c467583f84f3")
-	)
-	(wire
-		(pts
 			(xy 146.05 171.45) (xy 152.4 171.45)
 		)
 		(stroke
@@ -8312,7 +8495,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 114.3) (xy 129.54 114.3)
+			(xy 129.54 114.3) (xy 128.27 114.3)
 		)
 		(stroke
 			(width 0)
@@ -8493,7 +8676,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 133.35) (xy 129.54 133.35)
+			(xy 111.76 133.35) (xy 128.27 133.35)
 		)
 		(stroke
 			(width 0)
@@ -8645,7 +8828,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 111.76) (xy 134.62 111.76)
+			(xy 125.73 111.76) (xy 129.54 111.76)
 		)
 		(stroke
 			(width 0)
@@ -8662,16 +8845,6 @@
 			(type default)
 		)
 		(uuid "8fb77d63-6cf7-496c-aea3-b29570074df2")
-	)
-	(wire
-		(pts
-			(xy 167.64 114.3) (xy 167.64 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90dacf69-b0d2-46bd-a86b-9ff3501ab6b2")
 	)
 	(wire
 		(pts
@@ -8732,6 +8905,16 @@
 			(type default)
 		)
 		(uuid "92cd0d77-c5c7-4dba-94ff-cebab0d844ae")
+	)
+	(wire
+		(pts
+			(xy 67.31 114.3) (xy 72.39 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "934354bc-f5f2-4f6d-8353-9743c1e3cff0")
 	)
 	(wire
 		(pts
@@ -9125,7 +9308,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 129.54) (xy 167.64 129.54)
+			(xy 176.53 129.54) (xy 170.18 129.54)
 		)
 		(stroke
 			(width 0)
@@ -9175,7 +9358,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 128.27) (xy 161.29 129.54)
+			(xy 163.83 128.27) (xy 163.83 129.54)
 		)
 		(stroke
 			(width 0)
@@ -9356,6 +9539,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 114.3) (xy 170.18 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be905daa-ccff-464c-b6b0-ef8d5dc49171")
+	)
+	(wire
+		(pts
 			(xy 264.16 228.6) (xy 273.05 228.6)
 		)
 		(stroke
@@ -9427,6 +9620,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 132.08) (xy 157.48 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3ac3946-c16b-4462-9300-84ff8d2b05cc")
+	)
+	(wire
+		(pts
 			(xy 271.78 53.34) (xy 274.32 53.34)
 		)
 		(stroke
@@ -9457,7 +9660,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 119.38) (xy 173.99 119.38)
+			(xy 170.18 119.38) (xy 176.53 119.38)
 		)
 		(stroke
 			(width 0)
@@ -9597,7 +9800,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 128.27) (xy 173.99 129.54)
+			(xy 176.53 128.27) (xy 176.53 129.54)
 		)
 		(stroke
 			(width 0)
@@ -10261,6 +10464,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 116.84) (xy 156.21 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f598d08f-546d-4856-a644-7f1a9067eaec")
+	)
+	(wire
+		(pts
 			(xy 111.76 133.35) (xy 111.76 134.62)
 		)
 		(stroke
@@ -10291,16 +10504,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 114.3) (xy 167.64 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6d61fda-d211-4dc8-8649-72cfa836fe55")
-	)
-	(wire
-		(pts
 			(xy 265.43 163.83) (xy 266.7 163.83)
 		)
 		(stroke
@@ -10318,6 +10521,16 @@
 			(type default)
 		)
 		(uuid "f84e4d9f-1ed7-44ed-bd4f-25569842325f")
+	)
+	(wire
+		(pts
+			(xy 170.18 102.87) (xy 170.18 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f864c09a-d9a8-4736-b13e-d689886fd786")
 	)
 	(wire
 		(pts
@@ -10454,7 +10667,7 @@
 	)
 	(rectangle
 		(start 196.85 135.89)
-		(end 237.49 208.28)
+		(end 238.76 208.28)
 		(stroke
 			(width 0)
 			(type dot)
@@ -12102,8 +12315,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF/1%"
-			(at 211.074 61.468 0)
+		(property "Value" "4.7uF/10%"
+			(at 210.058 61.214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12130,6 +12343,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 209.55 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 209.55 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 209.55 58.42 0)
 			(effects
 				(font
@@ -12206,6 +12437,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 394.97 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 394.97 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "72f0d0ee-0807-405b-8e1c-4750229eaeda")
 		)
@@ -12223,7 +12472,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 167.64 102.87 0)
+		(at 170.18 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12232,7 +12481,7 @@
 		(fields_autoplaced yes)
 		(uuid "02f90e4f-4990-4700-b097-5a2c7e1ef863")
 		(property "Reference" "#PWR32"
-			(at 167.64 106.68 0)
+			(at 170.18 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12241,7 +12490,7 @@
 			)
 		)
 		(property "Value" "+3V3 Audio"
-			(at 167.64 97.79 0)
+			(at 170.18 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12249,7 +12498,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 102.87 0)
+			(at 170.18 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12258,7 +12507,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 102.87 0)
+			(at 170.18 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12267,7 +12516,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 167.64 102.87 0)
+			(at 170.18 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12295,10 +12544,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "037157ce-ba9e-47c9-a6a0-dba01641a993")
 		(property "Reference" "C_EN1"
-			(at 303.53 54.6099 0)
+			(at 302.768 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12306,8 +12554,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF/1%"
-			(at 303.53 57.1499 0)
+		(property "Value" "1uF/10%"
+			(at 302.768 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12334,6 +12582,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 299.72 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 299.72 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 299.72 55.88 0)
 			(effects
 				(font
@@ -12375,8 +12641,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
-			(at 217.17 187.9599 0)
+		(property "Value" "10uF/10%"
+			(at 213.868 188.976 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12411,6 +12677,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 213.36 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 213.36 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9c1025f2-917b-4080-a7a8-9e41d829ae65")
 		)
@@ -12436,7 +12720,7 @@
 		(dnp no)
 		(uuid "06fcb78d-7467-4e8f-a1b1-8b93ee5d549f")
 		(property "Reference" "C2"
-			(at 336.55 34.2899 0)
+			(at 326.898 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12444,8 +12728,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF/1%"
-			(at 322.834 38.1 0)
+		(property "Value" "22uF/10%"
+			(at 322.58 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12472,6 +12756,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 332.74 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 332.74 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 332.74 35.56 0)
 			(effects
 				(font
@@ -12549,6 +12851,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 255.27 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 255.27 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "14753f5e-9a83-49fd-9e48-ef7c16b224de")
 		)
@@ -12608,6 +12928,24 @@
 			)
 		)
 		(property "Description" "Schottky diode"
+			(at 212.09 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 212.09 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 212.09 125.73 0)
 			(effects
 				(font
@@ -12750,6 +13088,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 261.62 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 261.62 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "713f9227-86d4-448c-ab17-377f7d0d8a3e")
 		)
@@ -12809,6 +13165,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 60.96 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 60.96 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 60.96 241.3 0)
 			(effects
 				(font
@@ -13048,7 +13422,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10K/1%"
 			(at 156.21 35.56 90)
 			(effects
 				(font
@@ -13075,6 +13449,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 156.21 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 156.21 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 156.21 39.37 0)
 			(effects
 				(font
@@ -13116,8 +13508,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF/1%"
-			(at 57.658 73.406 0)
+		(property "Value" "0.1uF/10%"
+			(at 56.388 73.406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13144,6 +13536,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 67.31 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 67.31 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 67.31 71.12 0)
 			(effects
 				(font
@@ -13235,7 +13645,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 167.64 133.35 0)
+		(at 170.18 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13244,7 +13654,7 @@
 		(fields_autoplaced yes)
 		(uuid "123f3630-b0b8-4aea-953c-62355a44f81c")
 		(property "Reference" "#PWR31"
-			(at 167.64 139.7 0)
+			(at 170.18 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13253,7 +13663,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 167.64 138.43 0)
+			(at 170.18 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13261,7 +13671,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 133.35 0)
+			(at 170.18 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13270,7 +13680,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 133.35 0)
+			(at 170.18 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13279,7 +13689,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 133.35 0)
+			(at 170.18 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13294,6 +13704,93 @@
 			(project "esp32-audio-board"
 				(path "/eec632f9-36b4-4131-ab98-6e329881d10f"
 					(reference "#PWR31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 157.48 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12742681-4025-4689-a1c6-9f73bcb52529")
+		(property "Reference" "C4"
+			(at 154.432 126.238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.01uF/10%"
+			(at 145.288 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 158.4452 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 157.48 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 157.48 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 157.48 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55569b43-7a1d-4cf7-bb5a-c157312814d6")
+		)
+		(pin "2"
+			(uuid "a92c30c3-eb0f-4356-a8bc-081c6e090f75")
+		)
+		(instances
+			(project "esp32-audio-board"
+				(path "/eec632f9-36b4-4131-ab98-6e329881d10f"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -13351,6 +13848,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 264.16 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 264.16 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "034a46b7-116b-452b-b2ff-86f6f875655b")
 		)
@@ -13384,8 +13899,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF/1%"
-			(at 160.782 233.426 0)
+		(property "Value" "10uF/10%"
+			(at 160.02 233.426 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13412,6 +13927,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 158.75 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 158.75 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 158.75 231.14 0)
 			(effects
 				(font
@@ -13487,6 +14020,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 156.21 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 156.21 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8b00e607-2502-4b28-8248-bdef42e33171")
 		)
@@ -13497,6 +14048,72 @@
 			(project "esp32-audio-board"
 				(path "/eec632f9-36b4-4131-ab98-6e329881d10f"
 					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 157.48 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13a53a98-215c-40d3-81c8-ceccc03a85ea")
+		(property "Reference" "#PWR67"
+			(at 157.48 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 157.48 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 157.48 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8c7bb9a-6f47-420a-947e-3b9d9ab31d0d")
+		)
+		(instances
+			(project "esp32-audio-board"
+				(path "/eec632f9-36b4-4131-ab98-6e329881d10f"
+					(reference "#PWR67")
 					(unit 1)
 				)
 			)
@@ -13520,8 +14137,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF/1%"
-			(at 200.66 232.4099 0)
+		(property "Value" "0.1uF/10%"
+			(at 198.12 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13548,6 +14165,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 196.85 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 196.85 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 196.85 231.14 0)
 			(effects
 				(font
@@ -13615,6 +14250,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 121.92 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 121.92 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 121.92 224.79 0)
 			(effects
 				(font
@@ -13903,6 +14556,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 264.16 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 264.16 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "54ffc31a-4cc6-41a5-a218-ef9fd583b7b4")
 		)
@@ -13936,8 +14607,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 229.87 187.9599 0)
+		(property "Value" "0.1uF/10%"
+			(at 226.314 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13964,6 +14635,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 226.06 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 226.06 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 226.06 186.69 0)
 			(effects
 				(font
@@ -14005,7 +14694,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF/1%"
+		(property "Value" "1uF/10%"
 			(at 260.096 232.918 90)
 			(effects
 				(font
@@ -14033,6 +14722,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 256.54 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 256.54 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 256.54 228.6 0)
 			(effects
 				(font
@@ -14174,6 +14881,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 156.21 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 156.21 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c8335999-ca56-46fb-a9b5-c1bd8926b018")
 		)
@@ -14207,7 +14932,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10K/1%"
 			(at 156.21 59.69 90)
 			(effects
 				(font
@@ -14234,6 +14959,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 156.21 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 156.21 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 156.21 63.5 0)
 			(effects
 				(font
@@ -14310,6 +15053,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 261.62 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 261.62 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7487c106-435c-4267-a5e7-635436ec82d9")
 		)
@@ -14377,6 +15138,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 314.96 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 314.96 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "403203db-28f5-4297-91cc-5973fe5e7535")
 		)
@@ -14391,7 +15170,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 161.29 124.46 0)
+		(at 163.83 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14399,7 +15178,7 @@
 		(dnp no)
 		(uuid "1e3e7bee-f328-4371-80e7-04ca5344c5df")
 		(property "Reference" "C12"
-			(at 165.1 123.1899 0)
+			(at 167.64 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14407,8 +15186,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF/1%"
-			(at 161.798 127.254 0)
+		(property "Value" "0.1uF/10%"
+			(at 164.846 127.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14417,7 +15196,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 162.2552 128.27 0)
+			(at 164.7952 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14426,7 +15205,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 124.46 0)
+			(at 163.83 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14435,7 +15214,25 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 161.29 124.46 0)
+			(at 163.83 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 163.83 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 163.83 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14511,6 +15308,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 91.44 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 91.44 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0b934168-eea9-454b-b0fe-9adf917cd187")
 		)
@@ -14567,6 +15382,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 271.78 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 271.78 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 271.78 255.27 0)
 			(effects
 				(font
@@ -14740,7 +15573,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20pF/1%"
+		(property "Value" "20pF/5%"
 			(at 270.256 170.434 0)
 			(effects
 				(font
@@ -14768,6 +15601,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 266.7 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 266.7 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 266.7 168.91 0)
 			(effects
 				(font
@@ -14858,155 +15709,6 @@
 		)
 	)
 	(symbol
-		(lib_id "XC6220A331MR-G:XC6220A331MR-G")
-		(at 134.62 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2624b943-2a1f-4596-b4ad-72c788d5033e")
-		(property "Reference" "IC2"
-			(at 148.59 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XC6220A331MR-G"
-			(at 148.59 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "xc6220a331:SOT95P280X120-5N"
-			(at 158.75 206.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.torexsemi.com/file/xc6220/XC6220.pdf"
-			(at 158.75 306.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "LDO Voltage Regulators"
-			(at 134.62 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.2"
-			(at 158.75 506.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Torex"
-			(at 158.75 606.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "XC6220A331MR-G"
-			(at 158.75 706.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "865-XC6220A331MR-G"
-			(at 158.75 806.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Torex-Semiconductor/XC6220A331MR-G?qs=AsjdqWjXhJ8ZSWznL1J0gg%3D%3D"
-			(at 158.75 906.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 158.75 1006.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 158.75 1106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ff676252-ce38-4045-86e9-fbdd3226dc5b")
-		)
-		(pin "3"
-			(uuid "322c8dd0-301e-4e60-9cbd-bb498db6050d")
-		)
-		(pin "5"
-			(uuid "71d41c61-eca1-484a-8e48-7c2e859208de")
-		)
-		(pin "1"
-			(uuid "e4c91fb5-9870-4b9a-840a-cf1ce5ef3ad4")
-		)
-		(pin "4"
-			(uuid "1d4fca40-2a3a-44e3-84e9-4976f74ab57e")
-		)
-		(instances
-			(project ""
-				(path "/eec632f9-36b4-4131-ab98-6e329881d10f"
-					(reference "IC2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
 		(at 91.44 182.88 180)
 		(unit 1)
@@ -15051,6 +15753,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 91.44 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 91.44 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 91.44 182.88 0)
 			(effects
 				(font
@@ -15123,6 +15843,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 77.47 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 77.47 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "41facb07-2de6-4160-9c9f-de598591e448")
 		)
@@ -15183,6 +15921,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 170.18 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 170.18 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 170.18 171.45 0)
 			(effects
 				(font
@@ -15287,7 +16043,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF/1%"
+		(property "Value" "0.1uF/10%"
 			(at 172.72 233.426 0)
 			(effects
 				(font
@@ -15315,6 +16071,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 171.45 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 171.45 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 171.45 231.14 0)
 			(effects
 				(font
@@ -15458,6 +16232,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 53.34 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 53.34 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bb388f35-f63a-4a38-844a-b01d0a2cb601")
 		)
@@ -15577,6 +16369,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 22.86 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 22.86 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3c455a1b-714c-4e6a-a2f5-0fe3ac4ce645")
 		)
@@ -15645,6 +16455,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 170.18 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 170.18 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2dd3ef6b-dc67-4e1b-9450-159d71d90d51")
 		)
@@ -15667,7 +16495,7 @@
 		(dnp no)
 		(uuid "32572cd2-a33f-4438-9618-ab8ffd17c8cc")
 		(property "Reference" "C29"
-			(at 89.408 224.79 0)
+			(at 91.44 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15675,7 +16503,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF/1%"
+		(property "Value" "10uF/10%"
 			(at 88.138 229.108 0)
 			(effects
 				(font
@@ -15703,6 +16531,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 97.79 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 97.79 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 97.79 226.06 0)
 			(effects
 				(font
@@ -15911,6 +16757,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 313.69 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 313.69 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d163c05b-92dc-4e5f-bb53-bb715bb975c5")
 		)
@@ -15941,8 +16805,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 229.87 146.0499 0)
+		(property "Value" "0.1uF/10%"
+			(at 226.568 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15969,6 +16833,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 226.06 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 226.06 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 226.06 144.78 0)
 			(effects
 				(font
@@ -16045,6 +16927,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 367.03 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 367.03 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "67943004-d573-4add-afbe-c6c471733016")
 		)
@@ -16113,6 +17013,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 177.8 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 177.8 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e830ab50-c52f-4fbb-9d58-6df34271e4aa")
 		)
@@ -16172,6 +17090,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 271.78 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 271.78 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 271.78 214.63 0)
 			(effects
 				(font
@@ -16250,6 +17186,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 374.65 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 374.65 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c3e3d90b-0ca2-411a-8531-3eb1aae0a644")
 		)
@@ -16317,6 +17271,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 275.59 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 275.59 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "89451a64-48b1-446b-9631-fc455f634121")
 		)
@@ -16339,7 +17311,7 @@
 		(dnp no)
 		(uuid "408dbe41-55c2-4214-b02d-704e1032256d")
 		(property "Reference" "C14"
-			(at 118.872 129.032 0)
+			(at 121.92 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16347,8 +17319,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF/1%"
-			(at 118.872 131.572 0)
+		(property "Value" "10uF/10%"
+			(at 118.11 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16375,6 +17347,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 118.11 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 118.11 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 118.11 125.73 0)
 			(effects
 				(font
@@ -16453,6 +17443,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 299.72 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 299.72 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "01e566d4-373e-40bb-8178-4e6ab0d17ecc")
 		)
@@ -16513,6 +17521,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 278.13 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 278.13 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 278.13 269.24 0)
 			(effects
 				(font
@@ -16707,6 +17733,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 90.17 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 90.17 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "52370451-309f-4dee-becb-a3bfa4e1a3e0")
 		)
@@ -16821,7 +17865,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20pF/1%"
+		(property "Value" "20pF/5%"
 			(at 270.256 190.754 0)
 			(effects
 				(font
@@ -16849,6 +17893,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 266.7 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 266.7 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 266.7 189.23 0)
 			(effects
 				(font
@@ -16925,6 +17987,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 345.44 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 345.44 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1431e458-5262-4b34-807b-ce1761de5e7b")
 		)
@@ -16982,6 +18062,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 260.35 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 260.35 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 260.35 35.56 0)
 			(effects
 				(font
@@ -17123,6 +18221,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 354.33 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 354.33 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bf3cef82-125c-44ed-9217-1ec862304d34")
 		)
@@ -17145,7 +18261,7 @@
 		(dnp no)
 		(uuid "4d4f30fa-d5ed-475c-a26f-8164c720de05")
 		(property "Reference" "C6"
-			(at 257.302 58.42 0)
+			(at 259.588 59.944 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17153,8 +18269,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF/1%"
-			(at 255.27 63.246 0)
+		(property "Value" "4.7uF/10%"
+			(at 254.254 62.738 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17181,6 +18297,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 265.43 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 265.43 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 265.43 59.69 0)
 			(effects
 				(font
@@ -17271,6 +18405,153 @@
 		)
 	)
 	(symbol
+		(lib_id "TLV75733PDBVR:TLV75733PDBVR")
+		(at 41.91 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5083ba82-a89a-4fd5-94ee-0c1a7e5cfc42")
+		(property "Reference" "PS1"
+			(at 54.61 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV75733PDBVR"
+			(at 54.61 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "tlv75733pdbvr:SOT95P280X145-5N"
+			(at 63.5 206.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/tlv757p"
+			(at 63.5 306.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "LDO Voltage Regulators 1A Low-IQ Small-Size Low-Dropout (LDO) Regulator 5-SOT-23 -40 to 125"
+			(at 41.91 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 63.5 506.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TLV75733PDBVR"
+			(at 63.5 606.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV75733PDBVR?qs=y6ZabgHbY%252BwAAzSntTW34w%3D%3D"
+			(at 63.5 706.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 63.5 806.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TLV75733PDBVR"
+			(at 63.5 906.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 41.91 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 41.91 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bda1b11a-68df-43d1-a28f-c2d4a19d2301")
+		)
+		(pin "3"
+			(uuid "77d37a56-2507-48d2-88bd-595f988d71d5")
+		)
+		(pin "1"
+			(uuid "cb490cd5-c7d6-4a53-9d77-a9e3feb1d0e3")
+		)
+		(pin "5"
+			(uuid "c9b65372-5b7c-451b-bede-e09d78a53a83")
+		)
+		(pin "4"
+			(uuid "b265437f-64cd-4192-b806-f9720b0b0e1b")
+		)
+		(instances
+			(project ""
+				(path "/eec632f9-36b4-4131-ab98-6e329881d10f"
+					(reference "PS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
 		(at 345.44 190.5 180)
 		(unit 1)
@@ -17315,6 +18596,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 345.44 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 345.44 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 345.44 190.5 0)
 			(effects
 				(font
@@ -17387,6 +18686,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 278.13 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 278.13 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0eaa5eaa-8f4b-4db5-a0a0-c326542705f8")
 		)
@@ -17417,8 +18734,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20pF/1%"
-			(at 57.658 248.92 0)
+		(property "Value" "20pF/5%"
+			(at 56.642 249.428 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17445,6 +18762,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 67.31 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 67.31 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 67.31 246.38 0)
 			(effects
 				(font
@@ -17520,6 +18855,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 90.17 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 90.17 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a99e9976-6006-4d1a-b0ec-27b1cf0bbb97")
 		)
@@ -17578,6 +18931,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 44.45 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 44.45 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 44.45 233.68 0)
 			(effects
 				(font
@@ -17653,6 +19024,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 345.44 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 345.44 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "460da248-d789-4905-9036-496b7793f90a")
 		)
@@ -17710,6 +19099,24 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 313.69 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 313.69 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 313.69 245.11 0)
 			(effects
 				(font
@@ -17916,6 +19323,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 62.23 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 62.23 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "669d5e73-394a-45ae-a818-447ee3e206ec")
 		)
@@ -17976,6 +19401,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 354.33 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 354.33 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 354.33 190.5 0)
 			(effects
 				(font
@@ -18079,7 +19522,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF/1%"
+		(property "Value" "0.1uF/10%"
 			(at 349.2501 201.93 0)
 			(effects
 				(font
@@ -18107,6 +19550,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 350.52 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 350.52 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 350.52 198.12 0)
 			(effects
 				(font
@@ -18183,6 +19644,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 354.33 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 354.33 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8ee697cf-c023-4fab-9de6-c5dac837f40d")
 		)
@@ -18213,8 +19692,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF/1%"
-			(at 55.88 128.778 0)
+		(property "Value" "0.1uF/10%"
+			(at 55.118 128.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18241,6 +19720,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 66.04 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 66.04 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 66.04 125.73 0)
 			(effects
 				(font
@@ -18583,6 +20080,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 222.25 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 222.25 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "876e1351-6a11-43b4-8ad0-e2669763a050")
 		)
@@ -18715,6 +20230,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 278.13 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 278.13 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "85a94ffe-1eec-46f9-9432-30ddafee9424")
 		)
@@ -18774,6 +20307,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 48.26 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 48.26 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 48.26 233.68 0)
 			(effects
 				(font
@@ -18881,7 +20432,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF/1%"
+		(property "Value" "10uF/10%"
 			(at 77.724 73.406 0)
 			(effects
 				(font
@@ -18909,6 +20460,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 77.47 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 77.47 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 77.47 71.12 0)
 			(effects
 				(font
@@ -19185,6 +20754,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 374.65 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 374.65 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fadd0cd6-e257-4bbf-a3f8-2736c2bcbc66")
 		)
@@ -19252,6 +20839,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 273.05 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 273.05 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "55a3329b-425c-45b7-8c8a-0f8d83913ac5")
 		)
@@ -19309,6 +20914,24 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 313.69 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 313.69 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 313.69 224.79 0)
 			(effects
 				(font
@@ -19513,6 +21136,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 95.25 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 95.25 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a9920312-bd4a-49f2-9025-7e804a18073e")
 		)
@@ -19556,7 +21197,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 220.98 113.665 0)
 			(effects
 				(font
@@ -19578,6 +21219,24 @@
 			)
 		)
 		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+			(at 215.9 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 215.9 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 215.9 111.76 0)
 			(effects
 				(font
@@ -19688,7 +21347,7 @@
 				)
 			)
 		)
-		(property "Value" "HP_2GND"
+		(property "Value" "HP_GND2"
 			(at 169.545 189.23 0)
 			(effects
 				(font
@@ -19715,6 +21374,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 170.18 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 170.18 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 170.18 191.77 0)
 			(effects
 				(font
@@ -19790,6 +21467,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 50.8 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 50.8 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cb785209-8a3c-4b83-8b1f-3de82fb238f8")
 		)
@@ -19809,155 +21504,6 @@
 			(project ""
 				(path "/eec632f9-36b4-4131-ab98-6e329881d10f"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "XC6220A331MR-G:XC6220A331MR-G")
-		(at 41.91 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "86d9d28d-3410-490f-8eec-45d4baf20bdc")
-		(property "Reference" "IC1"
-			(at 55.88 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XC6220A331MR-G"
-			(at 55.88 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "xc6220a331:SOT95P280X120-5N"
-			(at 66.04 206.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.torexsemi.com/file/xc6220/XC6220.pdf"
-			(at 66.04 306.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "LDO Voltage Regulators"
-			(at 41.91 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.2"
-			(at 66.04 506.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Torex"
-			(at 66.04 606.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "XC6220A331MR-G"
-			(at 66.04 706.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "865-XC6220A331MR-G"
-			(at 66.04 806.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Torex-Semiconductor/XC6220A331MR-G?qs=AsjdqWjXhJ8ZSWznL1J0gg%3D%3D"
-			(at 66.04 906.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 66.04 1006.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 66.04 1106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "f9cb7546-1b10-46a5-a052-ee278b6fe176")
-		)
-		(pin "5"
-			(uuid "dc4f685c-f229-4b6c-8501-13bf2dac7e8e")
-		)
-		(pin "1"
-			(uuid "9a8d0cc5-4809-439b-93f1-a4fdf8d15877")
-		)
-		(pin "4"
-			(uuid "80bfa495-5137-498e-8e1d-3dd0846ae8b8")
-		)
-		(pin "2"
-			(uuid "7d2dc26f-a446-47fa-981e-a981799c17a0")
-		)
-		(instances
-			(project ""
-				(path "/eec632f9-36b4-4131-ab98-6e329881d10f"
-					(reference "IC1")
 					(unit 1)
 				)
 			)
@@ -20141,6 +21687,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 279.4 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 279.4 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 279.4 50.8 0)
 			(effects
 				(font
@@ -20446,7 +22010,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF/1%"
+		(property "Value" "22uF/10%"
 			(at 68.326 187.452 90)
 			(effects
 				(font
@@ -20474,6 +22038,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 63.5 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 63.5 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 63.5 182.88 0)
 			(effects
 				(font
@@ -20515,7 +22097,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF/1%"
+		(property "Value" "10uF/10%"
 			(at 185.674 233.426 0)
 			(effects
 				(font
@@ -20543,6 +22125,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 184.15 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 184.15 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 184.15 231.14 0)
 			(effects
 				(font
@@ -20620,6 +22220,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 83.82 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 83.82 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2e425148-681e-4610-ba30-53d682f19843")
 		)
@@ -20682,6 +22300,24 @@
 			)
 		)
 		(property "Description" "RF Module, ESP32-D0WD-V3 SoC, without PSRAM, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD"
+			(at 355.6 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 355.6 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 355.6 81.28 0)
 			(effects
 				(font
@@ -20834,7 +22470,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF/1%"
+		(property "Value" "0.1uF/10%"
 			(at 349.2501 238.76 0)
 			(effects
 				(font
@@ -20862,6 +22498,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 350.52 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 350.52 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 350.52 234.95 0)
 			(effects
 				(font
@@ -20903,7 +22557,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF/1%"
+		(property "Value" "10uF/10%"
 			(at 254.254 254 90)
 			(effects
 				(font
@@ -20931,6 +22585,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 256.54 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 256.54 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 256.54 255.27 0)
 			(effects
 				(font
@@ -20999,6 +22671,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 105.41 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 105.41 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 105.41 222.25 0)
 			(effects
 				(font
@@ -21143,6 +22833,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 195.58 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 195.58 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e680cce3-85a8-4ece-b380-f639f5f57e68")
 		)
@@ -21176,8 +22884,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
-			(at 217.17 166.3699 0)
+		(property "Value" "10uF/10%"
+			(at 213.868 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21204,6 +22912,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 213.36 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 213.36 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 213.36 165.1 0)
 			(effects
 				(font
@@ -21279,6 +23005,24 @@
 		)
 		(property "Description" "General Purpose NPN Transistor, 1.5A Ic, 25V Vce, SOT-23"
 			(at 204.216 61.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 170.18 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 170.18 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21422,6 +23166,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 90.17 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 90.17 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c2881b38-12d3-4a3d-aedf-438cf5752573")
 		)
@@ -21452,7 +23214,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20pF/1%"
+		(property "Value" "20pF/5%"
 			(at 74.676 249.428 0)
 			(effects
 				(font
@@ -21480,6 +23242,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 73.66 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 73.66 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 73.66 246.38 0)
 			(effects
 				(font
@@ -21625,6 +23405,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 234.95 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 234.95 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "60f12b6a-4cbe-46b8-b12d-3d3f73e972c6")
 		)
@@ -21650,6 +23448,153 @@
 		)
 	)
 	(symbol
+		(lib_id "LP2985A-33DBVR:LP2985A-33DBVR")
+		(at 129.54 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "afd71ac0-b818-458a-9e77-c60df26a4ab6")
+		(property "Reference" "IC1"
+			(at 147.32 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LP2985A-33DBVR"
+			(at 147.32 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lp2985a-33dbvr:SOT95P280X145-5N"
+			(at 161.29 206.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/lp2985a"
+			(at 161.29 306.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "150-mA Low-noise Low-dropout Regulator With Shutdown"
+			(at 129.54 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 161.29 506.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-LP2985A-33DBVR"
+			(at 161.29 606.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LP2985A-33DBVR?qs=paYhMW8qfis6dkQ9X%2FZDvw%3D%3D"
+			(at 161.29 706.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 161.29 806.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LP2985A-33DBVR"
+			(at 161.29 906.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 129.54 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 129.54 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9f00a37d-e0fd-4be2-a3f9-840158045166")
+		)
+		(pin "4"
+			(uuid "ff78aff6-6709-47e1-bf60-3eabbfffbe73")
+		)
+		(pin "2"
+			(uuid "f997a133-c05a-4fb6-83f5-940ae094d4d4")
+		)
+		(pin "5"
+			(uuid "7895b778-1f2d-4c53-96aa-f10849687b68")
+		)
+		(pin "1"
+			(uuid "8b2800cb-7905-45c8-ae32-ea1168880c46")
+		)
+		(instances
+			(project ""
+				(path "/eec632f9-36b4-4131-ab98-6e329881d10f"
+					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 142.24 182.88 90)
 		(unit 1)
@@ -21667,7 +23612,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF/1%"
+		(property "Value" "22uF/10%"
 			(at 146.812 186.944 90)
 			(effects
 				(font
@@ -21695,6 +23640,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 142.24 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 142.24 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 142.24 182.88 0)
 			(effects
 				(font
@@ -21763,6 +23726,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 367.03 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 367.03 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 367.03 194.31 0)
 			(effects
 				(font
@@ -21963,6 +23944,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 367.03 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 367.03 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 367.03 231.14 0)
 			(effects
 				(font
@@ -22333,7 +24332,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF/1%"
+		(property "Value" "0.1uF/10%"
 			(at 124.968 36.83 90)
 			(effects
 				(font
@@ -22361,6 +24360,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 123.19 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 123.19 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 123.19 38.1 0)
 			(effects
 				(font
@@ -22436,6 +24453,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 60.96 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 60.96 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fe5639a9-5a51-4357-bacb-80fc0fd6d074")
 		)
@@ -22503,6 +24538,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 77.47 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 77.47 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d71ee811-912d-4d9b-bffd-87cc71fe0226")
 		)
@@ -22528,7 +24581,7 @@
 		(dnp no)
 		(uuid "c4397ff5-a772-465e-888b-ef02cc78409e")
 		(property "Reference" "C30"
-			(at 104.902 224.536 0)
+			(at 106.172 226.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22536,8 +24589,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF/1%"
-			(at 102.87 228.854 0)
+		(property "Value" "0.1uF/10%"
+			(at 102.362 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22564,6 +24617,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 113.03 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 113.03 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 113.03 226.06 0)
 			(effects
 				(font
@@ -22605,7 +24676,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF/1%"
+		(property "Value" "10uF/10%"
 			(at 254.254 212.852 90)
 			(effects
 				(font
@@ -22633,6 +24704,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 256.54 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 256.54 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 256.54 214.63 0)
 			(effects
 				(font
@@ -22674,7 +24763,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF/1%"
+		(property "Value" "0.1uF/10%"
 			(at 106.172 128.524 0)
 			(effects
 				(font
@@ -22702,6 +24791,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 105.41 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 105.41 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 105.41 125.73 0)
 			(effects
 				(font
@@ -22743,7 +24850,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF/1%"
+		(property "Value" "0.1uF/10%"
 			(at 17.526 129.032 0)
 			(effects
 				(font
@@ -22771,6 +24878,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 16.51 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 16.51 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 16.51 125.73 0)
 			(effects
 				(font
@@ -22915,6 +25040,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 374.65 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 374.65 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6d13e83e-ead6-4f4b-b564-32e1fdbabd5e")
 		)
@@ -22975,6 +25118,24 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 27.94 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 27.94 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 27.94 50.8 0)
 			(effects
 				(font
@@ -23061,7 +25222,7 @@
 				)
 			)
 		)
-		(property "Value" "HP_1GND"
+		(property "Value" "HP_GND1"
 			(at 90.805 189.23 0)
 			(effects
 				(font
@@ -23088,6 +25249,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 91.44 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 91.44 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 91.44 191.77 0)
 			(effects
 				(font
@@ -23152,6 +25331,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 95.25 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 95.25 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 95.25 255.27 0)
 			(effects
 				(font
@@ -23359,6 +25556,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 306.07 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 306.07 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "883dc75b-8c17-410a-bd02-9b2e0165a84e")
 		)
@@ -23389,8 +25604,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF/1%"
-			(at 69.342 128.778 0)
+		(property "Value" "10uF/10%"
+			(at 68.326 129.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23417,6 +25632,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 78.74 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 78.74 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 78.74 125.73 0)
 			(effects
 				(font
@@ -23524,7 +25757,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF/1%"
+		(property "Value" "1uF/10%"
 			(at 260.096 273.304 90)
 			(effects
 				(font
@@ -23552,6 +25785,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 256.54 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 256.54 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 256.54 269.24 0)
 			(effects
 				(font
@@ -23724,7 +25975,7 @@
 				)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "100K/1%"
 			(at 278.13 116.84 90)
 			(effects
 				(font
@@ -23751,6 +26002,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 278.13 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 278.13 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 278.13 120.65 0)
 			(effects
 				(font
@@ -23990,7 +26259,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF/1%"
+		(property "Value" "10uF/10%"
 			(at 29.972 131.572 0)
 			(effects
 				(font
@@ -24018,6 +26287,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 29.21 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 29.21 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 29.21 125.73 0)
 			(effects
 				(font
@@ -24059,8 +26346,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 229.87 166.3699 0)
+		(property "Value" "0.1uF/10%"
+			(at 226.568 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24087,6 +26374,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 226.06 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 226.06 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 226.06 165.1 0)
 			(effects
 				(font
@@ -24194,7 +26499,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20pF/1%"
+		(property "Value" "20pF/5%"
 			(at 270.256 150.114 0)
 			(effects
 				(font
@@ -24222,6 +26527,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 266.7 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 266.7 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 266.7 148.59 0)
 			(effects
 				(font
@@ -24263,7 +26586,7 @@
 				)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "100K/1%"
 			(at 261.62 116.84 90)
 			(effects
 				(font
@@ -24290,6 +26613,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 261.62 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 261.62 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 261.62 120.65 0)
 			(effects
 				(font
@@ -24498,6 +26839,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 261.62 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 261.62 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2b74d4d4-02e2-4842-bc03-46fe1ea7a6e5")
 		)
@@ -24531,7 +26890,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF/1%"
+		(property "Value" "22uF/10%"
 			(at 146.812 175.514 90)
 			(effects
 				(font
@@ -24559,6 +26918,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 142.24 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 142.24 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 142.24 171.45 0)
 			(effects
 				(font
@@ -24701,6 +27078,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 313.69 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 313.69 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d248bb26-c75a-45fc-98a3-f1fb60d7a280")
 		)
@@ -24832,6 +27227,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 278.13 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 278.13 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a89778db-639e-45ff-83a4-c3d4d77e86f4")
 		)
@@ -24862,7 +27275,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF/1%"
+		(property "Value" "0.1uF/10%"
 			(at 349.2501 165.1 0)
 			(effects
 				(font
@@ -24898,6 +27311,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 350.52 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 350.52 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5e9f7c94-1532-4a77-a52b-16c004b01747")
 		)
@@ -24923,7 +27354,7 @@
 		(dnp no)
 		(uuid "f2565fea-df0a-4ecc-9c90-f68b285d5725")
 		(property "Reference" "C3"
-			(at 349.25 34.2899 0)
+			(at 348.234 35.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24931,8 +27362,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF/1%"
-			(at 345.694 38.608 0)
+		(property "Value" "0.1uF/10%"
+			(at 342.392 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24959,6 +27390,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 345.44 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 345.44 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 345.44 35.56 0)
 			(effects
 				(font
@@ -25065,7 +27514,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF/1%"
+		(property "Value" "22uF/10%"
 			(at 67.818 175.26 90)
 			(effects
 				(font
@@ -25093,6 +27542,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 63.5 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 63.5 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 63.5 171.45 0)
 			(effects
 				(font
@@ -25134,8 +27601,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
-			(at 217.17 146.0499 0)
+		(property "Value" "10uF/10%"
+			(at 213.614 147.066 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25162,6 +27629,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 213.36 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 213.36 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 213.36 144.78 0)
 			(effects
 				(font
@@ -25269,7 +27754,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF/1%"
+		(property "Value" "0.1uF/10%"
 			(at 309.8801 111.76 0)
 			(effects
 				(font
@@ -25305,6 +27790,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 311.15 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 311.15 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "792a6a0f-5ecb-476f-9c39-db62a937cb8c")
 		)
@@ -25322,7 +27825,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 173.99 124.46 0)
+		(at 176.53 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25330,7 +27833,7 @@
 		(dnp no)
 		(uuid "fa2678fb-c63c-4d19-99a7-8f3f495dc779")
 		(property "Reference" "C13"
-			(at 177.8 123.1899 0)
+			(at 180.848 124.714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25338,8 +27841,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF/1%"
-			(at 175.514 127 0)
+		(property "Value" "10uF/10%"
+			(at 179.832 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25348,7 +27851,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 174.9552 128.27 0)
+			(at 177.4952 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25357,7 +27860,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 173.99 124.46 0)
+			(at 176.53 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25366,7 +27869,25 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 173.99 124.46 0)
+			(at 176.53 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 176.53 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 176.53 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25493,6 +28014,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 111.76 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 111.76 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ba277135-ab0a-4696-ad88-9a3b1c14692a")
 		)
@@ -25559,6 +28098,24 @@
 		)
 		(property "Description" "General Purpose NPN Transistor, 1.5A Ic, 25V Vce, SOT-23"
 			(at 204.216 41.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 170.18 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 170.18 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
