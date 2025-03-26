@@ -5603,7 +5603,7 @@
 		(uuid "1f8a1d81-0d87-42e1-b406-260462fd71ff")
 	)
 	(junction
-		(at 269.24 120.65)
+		(at 266.7 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "247e8c81-161a-4b8d-8908-cb5d908b9d13")
@@ -6633,7 +6633,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 120.65) (xy 284.48 123.19)
+			(xy 281.94 120.65) (xy 281.94 123.19)
 		)
 		(stroke
 			(width 0)
@@ -6683,7 +6683,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 120.65) (xy 257.81 120.65)
+			(xy 251.46 120.65) (xy 255.27 120.65)
 		)
 		(stroke
 			(width 0)
@@ -7454,7 +7454,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 120.65) (xy 284.48 120.65)
+			(xy 279.4 120.65) (xy 281.94 120.65)
 		)
 		(stroke
 			(width 0)
@@ -8678,7 +8678,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 120.65) (xy 269.24 120.65)
+			(xy 262.89 120.65) (xy 266.7 120.65)
 		)
 		(stroke
 			(width 0)
@@ -8819,7 +8819,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 110.49) (xy 269.24 120.65)
+			(xy 266.7 110.49) (xy 266.7 120.65)
 		)
 		(stroke
 			(width 0)
@@ -9681,7 +9681,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 120.65) (xy 274.32 120.65)
+			(xy 266.7 120.65) (xy 271.78 120.65)
 		)
 		(stroke
 			(width 0)
@@ -11642,7 +11642,7 @@
 	)
 	(global_label "VBAT"
 		(shape input)
-		(at 254 120.65 180)
+		(at 251.46 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11652,7 +11652,7 @@
 		)
 		(uuid "5bc7116d-4013-49fd-8f3f-f78793d790f4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.6 120.65 0)
+			(at 244.06 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12192,7 +12192,7 @@
 	)
 	(global_label "ESP_IO35"
 		(shape input)
-		(at 269.24 110.49 90)
+		(at 266.7 110.49 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12202,7 +12202,7 @@
 		)
 		(uuid "d490c08a-dfca-4e71-a680-e06a98aa1871")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 269.24 98.5544 90)
+			(at 266.7 98.5544 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14923,7 +14923,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+		(property "Footprint" "solderpads:SolderPad_SMD_2x2mm"
 			(at 314.96 77.47 0)
 			(effects
 				(font
@@ -15328,7 +15328,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+		(property "Footprint" "solderpads:SolderPad_SMD_2x2mm"
 			(at 314.96 110.49 0)
 			(effects
 				(font
@@ -15498,7 +15498,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+		(property "Footprint" "solderpads:SolderPad_SMD_2x3mm"
 			(at 91.44 171.45 0)
 			(effects
 				(font
@@ -15951,7 +15951,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+		(property "Footprint" "solderpads:SolderPad_SMD_2x3mm"
 			(at 91.44 182.88 0)
 			(effects
 				(font
@@ -16119,7 +16119,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+		(property "Footprint" "solderpads:SolderPad_SMD_2x3mm"
 			(at 170.18 171.45 0)
 			(effects
 				(font
@@ -16178,7 +16178,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 284.48 123.19 0)
+		(at 281.94 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16187,7 +16187,7 @@
 		(fields_autoplaced yes)
 		(uuid "289fb1f6-5022-470e-b020-1ce78f83528d")
 		(property "Reference" "#PWR8"
-			(at 284.48 129.54 0)
+			(at 281.94 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16196,7 +16196,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 128.27 0)
+			(at 281.94 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16204,7 +16204,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 284.48 123.19 0)
+			(at 281.94 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16213,7 +16213,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 284.48 123.19 0)
+			(at 281.94 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16222,7 +16222,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 284.48 123.19 0)
+			(at 281.94 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16645,7 +16645,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+		(property "Footprint" "solderpads:SolderPad_SMD_2x3mm"
 			(at 170.18 182.88 0)
 			(effects
 				(font
@@ -17461,7 +17461,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+		(property "Footprint" "solderpads:SolderPad_SMD_2x2mm"
 			(at 275.59 27.94 0)
 			(effects
 				(font
@@ -17719,7 +17719,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+		(property "Footprint" "solderpads:SolderPad_SMD_2x3mm"
 			(at 278.13 269.24 0)
 			(effects
 				(font
@@ -18176,7 +18176,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+		(property "Footprint" "solderpads:SolderPad_SMD_2x2mm"
 			(at 353.06 152.4 0)
 			(effects
 				(font
@@ -18497,7 +18497,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+		(property "Footprint" "solderpads:SolderPad_SMD_2x2mm"
 			(at 361.95 226.06 0)
 			(effects
 				(font
@@ -18666,7 +18666,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+		(property "Footprint" "solderpads:SolderPad_SMD_2x2mm"
 			(at 306.07 77.47 0)
 			(effects
 				(font
@@ -18961,7 +18961,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+		(property "Footprint" "solderpads:SolderPad_SMD_2x2mm"
 			(at 353.06 189.23 0)
 			(effects
 				(font
@@ -19043,7 +19043,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+		(property "Footprint" "solderpads:SolderPad_SMD_2x3mm"
 			(at 278.13 273.05 0)
 			(effects
 				(font
@@ -19212,7 +19212,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+		(property "Footprint" "solderpads:SolderPad_SMD_2x2mm"
 			(at 90.17 129.54 0)
 			(effects
 				(font
@@ -19447,7 +19447,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+		(property "Footprint" "solderpads:SolderPad_SMD_2x2mm"
 			(at 353.06 226.06 0)
 			(effects
 				(font
@@ -19831,7 +19831,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+		(property "Footprint" "solderpads:SolderPad_SMD_2x2mm"
 			(at 361.95 189.23 0)
 			(effects
 				(font
@@ -20065,7 +20065,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+		(property "Footprint" "solderpads:SolderPad_SMD_2x2mm"
 			(at 361.95 152.4 0)
 			(effects
 				(font
@@ -20651,7 +20651,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+		(property "Footprint" "solderpads:SolderPad_SMD_2x3mm"
 			(at 278.13 232.41 0)
 			(effects
 				(font
@@ -21260,7 +21260,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+		(property "Footprint" "solderpads:SolderPad_SMD_2x2mm"
 			(at 273.05 27.94 0)
 			(effects
 				(font
@@ -21803,7 +21803,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+		(property "Footprint" "solderpads:SolderPad_SMD_2x3mm"
 			(at 170.18 191.77 0)
 			(effects
 				(font
@@ -23587,7 +23587,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+		(property "Footprint" "solderpads:SolderPad_SMD_2x2mm"
 			(at 90.17 127 0)
 			(effects
 				(font
@@ -25678,7 +25678,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+		(property "Footprint" "solderpads:SolderPad_SMD_2x3mm"
 			(at 91.44 191.77 0)
 			(effects
 				(font
@@ -25977,7 +25977,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+		(property "Footprint" "solderpads:SolderPad_SMD_2x2mm"
 			(at 306.07 110.49 0)
 			(effects
 				(font
@@ -26407,7 +26407,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 278.13 120.65 90)
+		(at 275.59 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26416,7 +26416,7 @@
 		(fields_autoplaced yes)
 		(uuid "de2ce705-ef28-4b00-b41e-f87f0fcc82e4")
 		(property "Reference" "R38"
-			(at 278.13 114.3 90)
+			(at 275.59 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26424,7 +26424,7 @@
 			)
 		)
 		(property "Value" "100K/1%"
-			(at 278.13 116.84 90)
+			(at 275.59 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26432,7 +26432,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 278.384 119.634 90)
+			(at 275.844 119.634 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26441,7 +26441,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 278.13 120.65 0)
+			(at 275.59 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26450,7 +26450,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 278.13 120.65 0)
+			(at 275.59 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26459,7 +26459,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 278.13 120.65 0)
+			(at 275.59 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26468,7 +26468,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 278.13 120.65 0)
+			(at 275.59 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27018,7 +27018,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 261.62 120.65 90)
+		(at 259.08 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27027,7 +27027,7 @@
 		(fields_autoplaced yes)
 		(uuid "e79cd18a-ef47-4afb-9d7c-73508751c3fe")
 		(property "Reference" "R37"
-			(at 261.62 114.3 90)
+			(at 259.08 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27035,7 +27035,7 @@
 			)
 		)
 		(property "Value" "100K/1%"
-			(at 261.62 116.84 90)
+			(at 259.08 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27043,7 +27043,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 261.874 119.634 90)
+			(at 259.334 119.634 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27052,7 +27052,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 261.62 120.65 0)
+			(at 259.08 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27061,7 +27061,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 261.62 120.65 0)
+			(at 259.08 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27070,7 +27070,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 261.62 120.65 0)
+			(at 259.08 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27079,7 +27079,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 261.62 120.65 0)
+			(at 259.08 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27648,7 +27648,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+		(property "Footprint" "solderpads:SolderPad_SMD_2x3mm"
 			(at 278.13 228.6 0)
 			(effects
 				(font
