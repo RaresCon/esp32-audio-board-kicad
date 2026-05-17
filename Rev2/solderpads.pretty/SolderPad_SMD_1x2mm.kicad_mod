@@ -1,0 +1,157 @@
+(footprint "SolderPad_SMD_2x2mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Wire Pad, Square, SMD Pad,  1mm x 2mm,")
+	(tags "MesurementPoint Square SMDPad 1mmx2mm ")
+	(property "Reference" "REF**"
+		(at 0 -2.54 0)
+		(layer "F.SilkS")
+		(uuid "65671f61-2b65-4036-b87b-395350675481")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SolderPad_SMD_2x2mm"
+		(at 0 2.54 0)
+		(layer "F.Fab")
+		(uuid "fafbf52f-25df-409f-87d1-7b22462ec741")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "96a673da-820d-4d9c-9ed7-92a2880fa1b2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b97d0a00-9ead-40dd-a1a3-620bf0e7313e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.1 -0.6)
+		(end -1.1 0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d954a240-2ccf-4a44-853a-81d3165605d9")
+	)
+	(fp_line
+		(start -1.1 0.6)
+		(end 1.1 0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5197c8c1-85b1-4e66-8a08-6fdf4bf2fc3d")
+	)
+	(fp_line
+		(start 1.1 -0.6)
+		(end -1.1 -0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "051c2bfb-cc8a-42df-9b24-d4a7cf54eeb4")
+	)
+	(fp_line
+		(start 1.1 0.6)
+		(end 1.1 -0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3b4b948f-343a-4735-aa56-5064436e5fde")
+	)
+	(fp_line
+		(start -1.1 -0.6)
+		(end 1.1 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "930a3697-d7a1-43ca-99f7-773fad8e48a6")
+	)
+	(fp_line
+		(start -1.1 0.6)
+		(end -1.1 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bc863828-744f-43d9-b779-7a3b10a1680c")
+	)
+	(fp_line
+		(start 1.1 -0.6)
+		(end 1.1 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "56b07189-9872-4ab9-a35f-306583d17ce8")
+	)
+	(fp_line
+		(start 1.1 0.6)
+		(end -1.1 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "218e631f-4938-4615-aaf2-25968fae3baa")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "406d93f8-5bd7-469b-8a61-de0c72895014")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 2 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "4de42e97-a20e-4d4a-abf5-e4e89e2bcbd5")
+	)
+	(embedded_fonts no)
+)
